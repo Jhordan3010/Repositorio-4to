@@ -9,3 +9,4 @@ C:\Users\jhord\OneDrive\Escritorio\Cuarto Semestre\Repsositorios\Repositorio-4to
 C:\Users\jhord\OneDrive\Escritorio\Cuarto Semestre\Repsositorios\Repositorio-4to\RD\Transpormacion Binario\Transpormacion Binario\obj\Debug\Transpormacion Binario.pdb
 C:\Users\jhord\OneDrive\Escritorio\Cuarto Semestre\Repsositorios\Repositorio-4to\RD\Transpormacion Binario\Transpormacion Binario\obj\Debug\Transpormacion_Binario.FormularioInicial.resources
 C:\Users\jhord\OneDrive\Escritorio\Cuarto Semestre\Repsositorios\Repositorio-4to\RD\Transpormacion Binario\Transpormacion Binario\obj\Debug\Transpormacion_Binario.FormularioOctal.resources
+C:\Users\jhord\OneDrive\Escritorio\Cuarto Semestre\Repsositorios\Repositorio-4to\RD\Transpormacion Binario\Transpormacion Binario\obj\Debug\Transpormacion_Binario.FormularioDecimal.resources

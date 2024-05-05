@@ -48,6 +48,12 @@
   <ItemGroup>
     <Compile Include="ConversorDecimal.cs" />
     <Compile Include="ConversorOctal.cs" />
+    <Compile Include="FormularioDecimal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioDecimal.Designer.cs">
+      <DependentUpon>FormularioDecimal.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormularioInicial.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormularioDecimal.resx">
+      <DependentUpon>FormularioDecimal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormularioInicial.resx">
       <DependentUpon>FormularioInicial.cs</DependentUpon>
     </EmbeddedResource>

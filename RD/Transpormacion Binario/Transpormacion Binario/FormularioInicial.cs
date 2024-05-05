@@ -23,5 +23,11 @@ namespace Transpormacion_Binario
             FormularioOctal fOct = new FormularioOctal();
             fOct.Show();
         }
+
+        private void btnDecimal_Click(object sender, EventArgs e)
+        {
+            FormularioDecimal fDecimal = new FormularioDecimal();
+            fDecimal.Show();
+        }
     }
 }

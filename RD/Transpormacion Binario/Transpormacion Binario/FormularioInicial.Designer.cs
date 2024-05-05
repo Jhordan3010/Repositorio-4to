@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.btnOctal = new System.Windows.Forms.Button();
+            this.btnDecimal = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnOctal
@@ -41,11 +42,22 @@
             this.btnOctal.UseVisualStyleBackColor = true;
             this.btnOctal.Click += new System.EventHandler(this.btnOctal_Click);
             // 
+            // btnDecimal
+            // 
+            this.btnDecimal.Location = new System.Drawing.Point(192, 236);
+            this.btnDecimal.Name = "btnDecimal";
+            this.btnDecimal.Size = new System.Drawing.Size(75, 23);
+            this.btnDecimal.TabIndex = 1;
+            this.btnDecimal.Text = "Decimal";
+            this.btnDecimal.UseVisualStyleBackColor = true;
+            this.btnDecimal.Click += new System.EventHandler(this.btnDecimal_Click);
+            // 
             // FormularioInicial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnDecimal);
             this.Controls.Add(this.btnOctal);
             this.Name = "FormularioInicial";
             this.Text = "FormularioInicial";
@@ -56,5 +68,6 @@
         #endregion
 
         private System.Windows.Forms.Button btnOctal;
+        private System.Windows.Forms.Button btnDecimal;
     }
 }
