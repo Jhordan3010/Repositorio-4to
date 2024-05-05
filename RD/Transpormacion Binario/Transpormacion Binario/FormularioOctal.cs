@@ -10,17 +10,16 @@ using System.Windows.Forms;
 
 namespace Transpormacion_Binario
 {
-    public partial class Form1 : Form
+    public partial class FormularioOctal : Form
     {
-        public Form1()
+        public FormularioOctal()
         {
             InitializeComponent();
         }
         private ConversorOctal cO;
-
-        private void btnIngresar_Click(object sender, EventArgs e)
+        private void btnIngrsar_Click(object sender, EventArgs e)
         {
-            string numeroOctal = txtnNumeroOctal.Text;
+            string numeroOctal = txtNumeroOctal.Text;
             cO = new ConversorOctal(numeroOctal);
 
             if (string.IsNullOrEmpty(numeroOctal))
@@ -29,7 +28,6 @@ namespace Transpormacion_Binario
                 btnBinario.Enabled = false;
                 btnDecimal.Enabled = false;
                 btnHexadecimal.Enabled = false;
-
             }
             else if (cO.EsOctal(numeroOctal))
             {
@@ -53,5 +51,16 @@ namespace Transpormacion_Binario
             txtImprimirResultadoOctal.Text = resultadoDecimal.ToString();
         }
 
+        private void btnBinario_Click(object sender, EventArgs e)
+        {
+            string resultadoBinario = cO.OctalABinario();
+            txtImprimirResultadoOctal.Text= resultadoBinario.ToString();
+        }
+
+        private void btnHexadecimal_Click(object sender, EventArgs e)
+        {
+            string resultadoHexadecimal = cO.OctalAHexadecimal();
+            txtImprimirResultadoOctal.Text = resultadoHexadecimal.ToString();
+        }
     }
 }
