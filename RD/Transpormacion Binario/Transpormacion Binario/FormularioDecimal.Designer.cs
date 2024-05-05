@@ -58,15 +58,17 @@
             this.btnOctal.TabIndex = 9;
             this.btnOctal.Text = "Octal";
             this.btnOctal.UseVisualStyleBackColor = true;
+            this.btnOctal.Click += new System.EventHandler(this.btnOctal_Click);
             // 
             // btnHexadecimal
             // 
-            this.btnHexadecimal.Location = new System.Drawing.Point(270, 208);
+            this.btnHexadecimal.Location = new System.Drawing.Point(277, 208);
             this.btnHexadecimal.Name = "btnHexadecimal";
-            this.btnHexadecimal.Size = new System.Drawing.Size(75, 23);
+            this.btnHexadecimal.Size = new System.Drawing.Size(88, 23);
             this.btnHexadecimal.TabIndex = 8;
             this.btnHexadecimal.Text = "Hexadecimal";
             this.btnHexadecimal.UseVisualStyleBackColor = true;
+            this.btnHexadecimal.Click += new System.EventHandler(this.btnHexadecimal_Click);
             // 
             // btnBinario
             // 
@@ -76,6 +78,7 @@
             this.btnBinario.TabIndex = 7;
             this.btnBinario.Text = "Binario";
             this.btnBinario.UseVisualStyleBackColor = true;
+            this.btnBinario.Click += new System.EventHandler(this.btnBinario_Click);
             // 
             // btnIngrsar
             // 

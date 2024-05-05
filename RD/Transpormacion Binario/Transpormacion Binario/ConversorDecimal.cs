@@ -19,11 +19,7 @@ namespace Transpormacion_Binario
         // Constructor que recibe un número en formato string y lo convierte a decimal
         public ConversorDecimal(string numero)
         {
-            try
-            {
-                _decimal = int.Parse(numero);
-            }
-            catch (FormatException)
+            if (!int.TryParse(numero, out _decimal))
             {
                 throw new ArgumentException("No es un número decimal válido");
             }

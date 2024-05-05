@@ -44,5 +44,26 @@ namespace Transpormacion_Binario
                 btnHexadecimal.Enabled = false;
             }
         }
+
+        private void btnBinario_Click(object sender, EventArgs e)
+        {
+            string numeroDecimal = txtNumeroDecimal.Text;
+            string resultadoDecimal = cD.DecimalABinario(); // Utiliza el objeto cd en lugar de cD
+            txtImprimirResultadoDecimal.Text = resultadoDecimal;
+        }
+
+        private void btnOctal_Click(object sender, EventArgs e)
+        {
+            string numeroDecimal = txtNumeroDecimal.Text;
+            string resultadoDecimal= cD.DecimalAOctal(); // Utiliza el objeto cd en lugar de cD
+            txtImprimirResultadoDecimal.Text = resultadoDecimal;
+        }
+
+        private void btnHexadecimal_Click(object sender, EventArgs e)
+        {
+            string numeroDecimal = txtNumeroDecimal.Text;
+            string resultadoDecimal = cD.DecimalAHexadecimal(); // Utiliza el objeto cd en lugar de cD
+            txtImprimirResultadoDecimal.Text = resultadoDecimal;
+        }
     }
 }
