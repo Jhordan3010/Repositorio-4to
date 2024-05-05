@@ -1,0 +1,10 @@
+C:\Users\jhord\OneDrive\Escritorio\Cuarto Semestre\Repsositorios\Repositorio-4to\RD\Transpormacion Binario\Transpormacion Binario\bin\Debug\Transpormacion Binario.exe.config
+C:\Users\jhord\OneDrive\Escritorio\Cuarto Semestre\Repsositorios\Repositorio-4to\RD\Transpormacion Binario\Transpormacion Binario\bin\Debug\Transpormacion Binario.exe
+C:\Users\jhord\OneDrive\Escritorio\Cuarto Semestre\Repsositorios\Repositorio-4to\RD\Transpormacion Binario\Transpormacion Binario\bin\Debug\Transpormacion Binario.pdb
+C:\Users\jhord\OneDrive\Escritorio\Cuarto Semestre\Repsositorios\Repositorio-4to\RD\Transpormacion Binario\Transpormacion Binario\obj\Debug\Transpormacion Binario.csproj.AssemblyReference.cache
+C:\Users\jhord\OneDrive\Escritorio\Cuarto Semestre\Repsositorios\Repositorio-4to\RD\Transpormacion Binario\Transpormacion Binario\obj\Debug\Transpormacion_Binario.Form1.resources
+C:\Users\jhord\OneDrive\Escritorio\Cuarto Semestre\Repsositorios\Repositorio-4to\RD\Transpormacion Binario\Transpormacion Binario\obj\Debug\Transpormacion_Binario.Properties.Resources.resources
+C:\Users\jhord\OneDrive\Escritorio\Cuarto Semestre\Repsositorios\Repositorio-4to\RD\Transpormacion Binario\Transpormacion Binario\obj\Debug\Transpormacion Binario.csproj.GenerateResource.cache
+C:\Users\jhord\OneDrive\Escritorio\Cuarto Semestre\Repsositorios\Repositorio-4to\RD\Transpormacion Binario\Transpormacion Binario\obj\Debug\Transpormacion Binario.csproj.CoreCompileInputs.cache
+C:\Users\jhord\OneDrive\Escritorio\Cuarto Semestre\Repsositorios\Repositorio-4to\RD\Transpormacion Binario\Transpormacion Binario\obj\Debug\Transpormacion Binario.exe
+C:\Users\jhord\OneDrive\Escritorio\Cuarto Semestre\Repsositorios\Repositorio-4to\RD\Transpormacion Binario\Transpormacion Binario\obj\Debug\Transpormacion Binario.pdb
