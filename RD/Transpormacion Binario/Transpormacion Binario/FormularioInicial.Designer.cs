@@ -30,6 +30,7 @@
         {
             this.btnOctal = new System.Windows.Forms.Button();
             this.btnDecimal = new System.Windows.Forms.Button();
+            this.btnBinario = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnOctal
@@ -52,11 +53,21 @@
             this.btnDecimal.UseVisualStyleBackColor = true;
             this.btnDecimal.Click += new System.EventHandler(this.btnDecimal_Click);
             // 
+            // btnBinario
+            // 
+            this.btnBinario.Location = new System.Drawing.Point(323, 247);
+            this.btnBinario.Name = "btnBinario";
+            this.btnBinario.Size = new System.Drawing.Size(75, 23);
+            this.btnBinario.TabIndex = 2;
+            this.btnBinario.Text = "Binario";
+            this.btnBinario.UseVisualStyleBackColor = true;
+            // 
             // FormularioInicial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnBinario);
             this.Controls.Add(this.btnDecimal);
             this.Controls.Add(this.btnOctal);
             this.Name = "FormularioInicial";
@@ -69,5 +80,6 @@
 
         private System.Windows.Forms.Button btnOctal;
         private System.Windows.Forms.Button btnDecimal;
+        private System.Windows.Forms.Button btnBinario;
     }
 }

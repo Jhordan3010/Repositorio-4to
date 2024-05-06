@@ -46,8 +46,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConversorBinario.cs" />
     <Compile Include="ConversorDecimal.cs" />
     <Compile Include="ConversorOctal.cs" />
+    <Compile Include="FormularioBinario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioBinario.Designer.cs">
+      <DependentUpon>FormularioBinario.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormularioDecimal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +75,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormularioBinario.resx">
+      <DependentUpon>FormularioBinario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormularioDecimal.resx">
       <DependentUpon>FormularioDecimal.cs</DependentUpon>
     </EmbeddedResource>
