@@ -6,4 +6,5 @@ Hipergeométrica: eventos no son independientes.
 Eventos independientes: el resultado de un ensayo particular no influye en el resultado de otro ensayo. Ej. Lanzar 2 dados, género de 2 hijos.
 
 MUESTREO
-- Es una herramienta para inferir (generalización) algo sobre una población a partir de una muestra
+- Es una herramienta para inferir (generalización) algo sobre una población a partir de una muestra.
+- 
