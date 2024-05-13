@@ -32,7 +32,7 @@
             this.txtNumeroBinario = new System.Windows.Forms.TextBox();
             this.btnOctal = new System.Windows.Forms.Button();
             this.btnHexadecimal = new System.Windows.Forms.Button();
-            this.btnBinario = new System.Windows.Forms.Button();
+            this.btnDecimalB = new System.Windows.Forms.Button();
             this.btnIngrsar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -58,6 +58,7 @@
             this.btnOctal.TabIndex = 15;
             this.btnOctal.Text = "Octal";
             this.btnOctal.UseVisualStyleBackColor = true;
+            this.btnOctal.Click += new System.EventHandler(this.btnOctal_Click);
             // 
             // btnHexadecimal
             // 
@@ -67,15 +68,17 @@
             this.btnHexadecimal.TabIndex = 14;
             this.btnHexadecimal.Text = "Hexadecimal";
             this.btnHexadecimal.UseVisualStyleBackColor = true;
+            this.btnHexadecimal.Click += new System.EventHandler(this.btnHexadecimal_Click);
             // 
-            // btnBinario
+            // btnDecimalB
             // 
-            this.btnBinario.Location = new System.Drawing.Point(15, 240);
-            this.btnBinario.Name = "btnBinario";
-            this.btnBinario.Size = new System.Drawing.Size(75, 23);
-            this.btnBinario.TabIndex = 13;
-            this.btnBinario.Text = "Binario";
-            this.btnBinario.UseVisualStyleBackColor = true;
+            this.btnDecimalB.Location = new System.Drawing.Point(15, 240);
+            this.btnDecimalB.Name = "btnDecimalB";
+            this.btnDecimalB.Size = new System.Drawing.Size(75, 23);
+            this.btnDecimalB.TabIndex = 13;
+            this.btnDecimalB.Text = "Decimal";
+            this.btnDecimalB.UseVisualStyleBackColor = true;
+            this.btnDecimalB.Click += new System.EventHandler(this.btnDecimal_Click);
             // 
             // btnIngrsar
             // 
@@ -85,6 +88,7 @@
             this.btnIngrsar.TabIndex = 12;
             this.btnIngrsar.Text = "Ingresar";
             this.btnIngrsar.UseVisualStyleBackColor = true;
+            this.btnIngrsar.Click += new System.EventHandler(this.btnIngrsar_Click);
             // 
             // FormularioBinario
             // 
@@ -95,7 +99,7 @@
             this.Controls.Add(this.txtNumeroBinario);
             this.Controls.Add(this.btnOctal);
             this.Controls.Add(this.btnHexadecimal);
-            this.Controls.Add(this.btnBinario);
+            this.Controls.Add(this.btnDecimalB);
             this.Controls.Add(this.btnIngrsar);
             this.Name = "FormularioBinario";
             this.Text = "FormularioBinario";
@@ -110,7 +114,7 @@
         private System.Windows.Forms.TextBox txtNumeroBinario;
         private System.Windows.Forms.Button btnOctal;
         private System.Windows.Forms.Button btnHexadecimal;
-        private System.Windows.Forms.Button btnBinario;
+        private System.Windows.Forms.Button btnDecimalB;
         private System.Windows.Forms.Button btnIngrsar;
     }
 }

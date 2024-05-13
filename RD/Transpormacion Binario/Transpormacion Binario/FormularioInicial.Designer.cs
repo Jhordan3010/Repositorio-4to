@@ -61,6 +61,7 @@
             this.btnBinario.TabIndex = 2;
             this.btnBinario.Text = "Binario";
             this.btnBinario.UseVisualStyleBackColor = true;
+            this.btnBinario.Click += new System.EventHandler(this.btnBinario_Click);
             // 
             // FormularioInicial
             // 

@@ -29,5 +29,11 @@ namespace Transpormacion_Binario
             FormularioDecimal fDecimal = new FormularioDecimal();
             fDecimal.Show();
         }
+
+        private void btnBinario_Click(object sender, EventArgs e)
+        {
+            FormularioBinario fBinario= new FormularioBinario();
+            fBinario.Show();
+        }
     }
 }
