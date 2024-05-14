@@ -23,4 +23,14 @@ Regla 1- omitir el cero inicial
 Ejemplos:
 - 2001:db8;cafe. 1:0:0.01(0s iniciales omitidos) podrían representarse como 2001:db8:cafe:1::1
 Nota: los dos puntos dobles se pueden utilizar solamente una vez dentro de una direccione;  lo contrario habría mas de una dirección resultante posible.
- 
+
+
+UNICAST, MULTICAST, ANYCAST
+
+1. **Unicast**: Es un tipo de comunicación en redes donde un único origen envía datos a un único destino. Es el método más común de comunicación en internet, donde un dispositivo envía datos a otro dispositivo específico mediante su dirección IP única.
+    
+2. **Multicast**: Es un método de comunicación en redes donde un único origen envía datos a múltiples destinos simultáneamente. En lugar de enviar copias separadas de los datos a cada destinatario, el origen envía una única copia que se distribuye a través de la red solo a aquellos destinatarios que están suscritos al grupo de multidifusión.
+    
+3. **Anycast**: Es un método de comunicación en redes donde un origen envía datos a la "mejor" ubicación disponible entre múltiples destinatarios que comparten la misma dirección de destino. La red determina automáticamente la ruta más eficiente para dirigir el tráfico al destinatario más cercano o disponible, lo que puede ayudar a mejorar la eficiencia y la disponibilidad de los servicios en línea.
+
+Notas: a diferencia de IPv4 no tiene una dirección broadcast. sin embargo existe una dirección ipv6 de multicast de todos los nodos que brinda básicamente el mismo resultado.
