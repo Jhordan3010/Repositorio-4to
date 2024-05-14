@@ -10,5 +10,13 @@ IPv6 formatos de direcciones IPv6
 - Las direcciones ipv6 tiene  128 bits de longitud y están escritas en hexadecimal.
 - las direcciones ipv6 no distingue entre mayúsculas y minúsculas y pueden escribirse en minúsculas p en mayúsculas
 - el formato preferido para escribir una IPV6 es x:x:x:x:x:x:x:x, donde cada x consta de cuatro valores hexadecimales.
-
-
+Regla 1- omitir el cero inicial
+ Las primeras reglas ayudan a reducir la nótacon de las direcciones ipv6 es omitir los 0s (ceros iniciales).
+ ejemplos:
+ - 01ab se puede representar como 1ab
+ - 09f0 se puede representar como 9f0
+ - 0a00 see puede representar como a00
+ - 00ab se puede representar como ab
+ 
+ Regla 2-Dos puntos
+ 
