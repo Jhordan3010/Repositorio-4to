@@ -11,12 +11,16 @@ IPv6 formatos de direcciones IPv6
 - las direcciones ipv6 no distingue entre mayúsculas y minúsculas y pueden escribirse en minúsculas p en mayúsculas
 - el formato preferido para escribir una IPV6 es x:x:x:x:x:x:x:x, donde cada x consta de cuatro valores hexadecimales.
 Regla 1- omitir el cero inicial
- Las primeras reglas ayudan a reducir la nótacon de las direcciones ipv6 es omitir los 0s (ceros iniciales).
+ Las primeras reglas ayudan a reducir la notación de las direcciones ipv6 es omitir los 0s (ceros iniciales).
  ejemplos:
  - 01ab se puede representar como 1ab
  - 09f0 se puede representar como 9f0
- - 0a00 see puede representar como a00
+ - 0a00 se puede representar como a00
  - 00ab se puede representar como ab
  
  Regla 2-Dos puntos
+  Los dos puntos dobles(::) pueden remplazar cualquier cadena única y continua de uno o mas segmentos de 16 bits que estén compuestas solo por ceros.
+Ejemplos:
+- 2001:db8;cafe. 1:0:0.01(0s iniciales omitidos) podrían representarse como 2001:db8:cafe:1::1
+Nota: los dos puntos dobles se pueden utilizar solamente una vez dentro de una direccione;  lo contrario habría mas de una dirección resultante posible.
  
