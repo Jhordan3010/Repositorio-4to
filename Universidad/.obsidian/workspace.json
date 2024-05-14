@@ -19,12 +19,8 @@
             "id": "9248f72e990b7b26",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "RDD/VLSM.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -74,7 +70,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -94,7 +91,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RDD/VLSM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +107,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RDD/VLSM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +128,15 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "RDD/VLSM.md"
-              }
+              "state": {}
+            }
+          },
+          {
+            "id": "1fcfcdf76f86a58b",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
             }
           }
         ]
@@ -159,7 +160,7 @@
   "active": "9248f72e990b7b26",
   "lastOpenFiles": [
     "RDD/VLSM.md",
-    "RDD/VLSM.md",
+    "2024-05-14.md",
     "Sin título",
     "Excalidraw",
     "Estadistica/Capitulo 2.md",

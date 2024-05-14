@@ -6,3 +6,7 @@ Coexistencia  de IPv4 e IPv6
 - Dual stack: los dispositivos ejecutan pilas de protocolos 
 - Tunneling: 
 - Translation: 
+IPv6 formatos de direcciones IPv6
+- Las direcciones ipv6 tiene  128 bits de longitud y están escritas en hexadecimal.
+- las direcciones ipv6 no distingue entre mayúsculas y minúsculas y pueden escribirse en minúsculas p en mayúsculas
+- el formato preferido para escribir una IPV6 es x:x:x:x:x:x:x:x, donde cada x consta de cuatro valores hexadecimales 
