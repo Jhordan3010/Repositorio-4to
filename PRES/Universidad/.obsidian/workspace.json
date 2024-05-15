@@ -26,29 +26,17 @@
             }
           },
           {
-            "id": "04d2ae07f558e83d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Estadistica/Capitulo 3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "150724f56abcf2a2",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Estadistica/Drawing 2024-05-15 09.38.52.excalidraw.md"
+                "file": "Estadistica/Capitulo 3.md"
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -114,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Estadistica/Drawing 2024-05-15 09.38.52.excalidraw.md",
+                "file": "Estadistica/Capitulo 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Estadistica/Drawing 2024-05-15 09.38.52.excalidraw.md",
+                "file": "Estadistica/Capitulo 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estadistica/Drawing 2024-05-15 09.38.52.excalidraw.md"
+                "file": "Estadistica/Capitulo 3.md"
               }
             }
           },
@@ -187,7 +175,8 @@
   "active": "150724f56abcf2a2",
   "lastOpenFiles": [
     "Estadistica/Capitulo 3.md",
-    "Estadistica/Drawing 2024-05-15 09.38.52.excalidraw.md",
+    "Estadistica/Capitulo 3.md",
+    "Sin título.md",
     "Estadistica/Capitulo 2.md",
     "RDD/VLSM.md",
     "2024-05-14.md",
