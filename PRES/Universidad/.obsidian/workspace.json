@@ -36,9 +36,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "150724f56abcf2a2",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Estadistica/Drawing 2024-05-15 09.38.52.excalidraw.md"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -104,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Estadistica/Capitulo 3.md",
+                "file": "Estadistica/Drawing 2024-05-15 09.38.52.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Estadistica/Capitulo 3.md",
+                "file": "Estadistica/Drawing 2024-05-15 09.38.52.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estadistica/Capitulo 3.md"
+                "file": "Estadistica/Drawing 2024-05-15 09.38.52.excalidraw.md"
               }
             }
           },
@@ -174,10 +184,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "04d2ae07f558e83d",
+  "active": "150724f56abcf2a2",
   "lastOpenFiles": [
-    "Estadistica/Capitulo 2.md",
     "Estadistica/Capitulo 3.md",
+    "Estadistica/Drawing 2024-05-15 09.38.52.excalidraw.md",
+    "Estadistica/Capitulo 2.md",
     "RDD/VLSM.md",
     "2024-05-14.md",
     "Sin título",
@@ -189,7 +200,6 @@
     "2024-05-07.md",
     "Métodos de muestreo.png",
     "Estadistica/Métodos de muestreo.canvas",
-    "Estadistica/Capitulo 3.md",
     "Estadistica/Capitulo II.md",
     "Excalidraw/Drawing 2024-05-07 11.10.21.excalidraw.md",
     "Excalidraw/Drawing 2024-05-07 11.10.09.excalidraw.md",
