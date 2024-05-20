@@ -31,6 +31,7 @@
             this.btnOctal = new System.Windows.Forms.Button();
             this.btnDecimal = new System.Windows.Forms.Button();
             this.btnBinario = new System.Windows.Forms.Button();
+            this.btnHexadecimal = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnOctal
@@ -63,11 +64,22 @@
             this.btnBinario.UseVisualStyleBackColor = true;
             this.btnBinario.Click += new System.EventHandler(this.btnBinario_Click);
             // 
+            // btnHexadecimal
+            // 
+            this.btnHexadecimal.Location = new System.Drawing.Point(464, 235);
+            this.btnHexadecimal.Name = "btnHexadecimal";
+            this.btnHexadecimal.Size = new System.Drawing.Size(107, 23);
+            this.btnHexadecimal.TabIndex = 3;
+            this.btnHexadecimal.Text = "Hexadecimal";
+            this.btnHexadecimal.UseVisualStyleBackColor = true;
+            this.btnHexadecimal.Click += new System.EventHandler(this.btnHexadecimal_Click);
+            // 
             // FormularioInicial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnHexadecimal);
             this.Controls.Add(this.btnBinario);
             this.Controls.Add(this.btnDecimal);
             this.Controls.Add(this.btnOctal);
@@ -82,5 +94,6 @@
         private System.Windows.Forms.Button btnOctal;
         private System.Windows.Forms.Button btnDecimal;
         private System.Windows.Forms.Button btnBinario;
+        private System.Windows.Forms.Button btnHexadecimal;
     }
 }

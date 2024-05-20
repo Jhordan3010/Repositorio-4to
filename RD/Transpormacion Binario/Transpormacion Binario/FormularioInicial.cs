@@ -35,5 +35,11 @@ namespace Transpormacion_Binario
             FormularioBinario fBinario= new FormularioBinario();
             fBinario.Show();
         }
+
+        private void btnHexadecimal_Click(object sender, EventArgs e)
+        {
+            FormularioHexadecimal fHex = new FormularioHexadecimal();
+            fHex.Show();
+        }
     }
 }

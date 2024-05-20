@@ -94,7 +94,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(349, 450);
+            this.ClientSize = new System.Drawing.Size(859, 450);
             this.Controls.Add(this.txtImprimirResultadoBinario);
             this.Controls.Add(this.txtNumeroBinario);
             this.Controls.Add(this.btnOctal);

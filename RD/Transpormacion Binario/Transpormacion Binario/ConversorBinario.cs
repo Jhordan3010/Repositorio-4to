@@ -102,5 +102,7 @@ namespace Transpormacion_Binario
         {
             this.binario = binario;
         }
+
+
     }
 }
