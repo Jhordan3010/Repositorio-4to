@@ -29,14 +29,34 @@
             "id": "150724f56abcf2a2",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "Estadistica/Pasted Image 20240515102444_970.jpg"
+              }
+            }
+          },
+          {
+            "id": "8ed69d43c1a017c4",
+            "type": "leaf",
+            "state": {
               "type": "excalidraw",
               "state": {
                 "file": "Estadistica/Capitulo 3.md"
               }
             }
+          },
+          {
+            "id": "0313f478976f7fd8",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Diseño/Drawing 2024-05-20 11.06.52.excalidraw.md"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -102,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Estadistica/Capitulo 3.md",
+                "file": "Diseño/Drawing 2024-05-20 11.06.52.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Estadistica/Capitulo 3.md",
+                "file": "Diseño/Drawing 2024-05-20 11.06.52.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estadistica/Capitulo 3.md"
+                "file": "Diseño/Drawing 2024-05-20 11.06.52.excalidraw.md"
               }
             }
           },
@@ -172,17 +192,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "150724f56abcf2a2",
+  "active": "265f801dbc22c667",
   "lastOpenFiles": [
-    "Pasted Image 20240515102444_970.jpg",
     "Estadistica/Capitulo 3.md",
-    "Estadistica/Capitulo 3.md",
-    "Sin título.md",
+    "Diseño/Drawing 2024-05-20 11.06.52.excalidraw.md",
+    "Excalidraw",
+    "Diseño/Bancos de germoplasma in vitro.md",
+    "Estadistica/Pasted Image 20240515102444_970.jpg",
+    "Diseño",
     "Estadistica/Capitulo 2.md",
     "RDD/VLSM.md",
     "2024-05-14.md",
-    "Sin título",
-    "Excalidraw",
     "RDD",
     "Excalidraw/Drawing 2024-05-08 07.32.13.excalidraw.md",
     "Métodos de muestreo.png.md",
