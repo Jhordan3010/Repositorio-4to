@@ -68,6 +68,7 @@
             this.btnBinarioH.TabIndex = 20;
             this.btnBinarioH.Text = "Binario";
             this.btnBinarioH.UseVisualStyleBackColor = true;
+            this.btnBinarioH.Click += new System.EventHandler(this.btnBinarioH_Click);
             // 
             // btnDecimalH
             // 

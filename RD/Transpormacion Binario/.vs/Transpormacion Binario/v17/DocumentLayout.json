@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transpormacion Binario\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{83AADC4F-B277-47BF-82DF-9A61AA954AF7}|Transpormacion Binario\\Transpormacion Binario.csproj|c:\\users\\jhord\\onedrive\\escritorio\\cuarto semestre\\repsositorios\\repositorio-4to\\rd\\transpormacion binario\\transpormacion binario\\conversorhexadecimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83AADC4F-B277-47BF-82DF-9A61AA954AF7}|Transpormacion Binario\\Transpormacion Binario.csproj|solutionrelative:transpormacion binario\\conversorhexadecimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{83AADC4F-B277-47BF-82DF-9A61AA954AF7}|Transpormacion Binario\\Transpormacion Binario.csproj|c:\\users\\jhord\\onedrive\\escritorio\\cuarto semestre\\repsositorios\\repositorio-4to\\rd\\transpormacion binario\\transpormacion binario\\formulariodecimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83AADC4F-B277-47BF-82DF-9A61AA954AF7}|Transpormacion Binario\\Transpormacion Binario.csproj|solutionrelative:transpormacion binario\\formulariodecimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83AADC4F-B277-47BF-82DF-9A61AA954AF7}|Transpormacion Binario\\Transpormacion Binario.csproj|c:\\users\\jhord\\onedrive\\escritorio\\cuarto semestre\\repsositorios\\repositorio-4to\\rd\\transpormacion binario\\transpormacion binario\\formulariodecimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{83AADC4F-B277-47BF-82DF-9A61AA954AF7}|Transpormacion Binario\\Transpormacion Binario.csproj|solutionrelative:transpormacion binario\\formulariodecimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83AADC4F-B277-47BF-82DF-9A61AA954AF7}|Transpormacion Binario\\Transpormacion Binario.csproj|c:\\users\\jhord\\onedrive\\escritorio\\cuarto semestre\\repsositorios\\repositorio-4to\\rd\\transpormacion binario\\transpormacion binario\\formulariohexadecimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83AADC4F-B277-47BF-82DF-9A61AA954AF7}|Transpormacion Binario\\Transpormacion Binario.csproj|solutionrelative:transpormacion binario\\formulariohexadecimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83AADC4F-B277-47BF-82DF-9A61AA954AF7}|Transpormacion Binario\\Transpormacion Binario.csproj|c:\\users\\jhord\\onedrive\\escritorio\\cuarto semestre\\repsositorios\\repositorio-4to\\rd\\transpormacion binario\\transpormacion binario\\mostrardecimales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83AADC4F-B277-47BF-82DF-9A61AA954AF7}|Transpormacion Binario\\Transpormacion Binario.csproj|solutionrelative:transpormacion binario\\mostrardecimales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83AADC4F-B277-47BF-82DF-9A61AA954AF7}|Transpormacion Binario\\Transpormacion Binario.csproj|c:\\users\\jhord\\onedrive\\escritorio\\cuarto semestre\\repsositorios\\repositorio-4to\\rd\\transpormacion binario\\transpormacion binario\\conversordecimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83AADC4F-B277-47BF-82DF-9A61AA954AF7}|Transpormacion Binario\\Transpormacion Binario.csproj|solutionrelative:transpormacion binario\\conversordecimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83AADC4F-B277-47BF-82DF-9A61AA954AF7}|Transpormacion Binario\\Transpormacion Binario.csproj|c:\\users\\jhord\\onedrive\\escritorio\\cuarto semestre\\repsositorios\\repositorio-4to\\rd\\transpormacion binario\\transpormacion binario\\formulariohexadecimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{83AADC4F-B277-47BF-82DF-9A61AA954AF7}|Transpormacion Binario\\Transpormacion Binario.csproj|solutionrelative:transpormacion binario\\formulariohexadecimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83AADC4F-B277-47BF-82DF-9A61AA954AF7}|Transpormacion Binario\\Transpormacion Binario.csproj|c:\\users\\jhord\\onedrive\\escritorio\\cuarto semestre\\repsositorios\\repositorio-4to\\rd\\transpormacion binario\\transpormacion binario\\conversorhexadecimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83AADC4F-B277-47BF-82DF-9A61AA954AF7}|Transpormacion Binario\\Transpormacion Binario.csproj|solutionrelative:transpormacion binario\\conversorhexadecimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83AADC4F-B277-47BF-82DF-9A61AA954AF7}|Transpormacion Binario\\Transpormacion Binario.csproj|c:\\users\\jhord\\onedrive\\escritorio\\cuarto semestre\\repsositorios\\repositorio-4to\\rd\\transpormacion binario\\transpormacion binario\\formulariobinario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -26,37 +46,100 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormularioDecimal.cs",
+              "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transpormacion Binario\\Transpormacion Binario\\FormularioDecimal.cs",
+              "RelativeDocumentMoniker": "Transpormacion Binario\\FormularioDecimal.cs",
+              "ToolTip": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transpormacion Binario\\Transpormacion Binario\\FormularioDecimal.cs",
+              "RelativeToolTip": "Transpormacion Binario\\FormularioDecimal.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAYwDIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:44:30.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MostrarDecimales.cs",
+              "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transpormacion Binario\\Transpormacion Binario\\MostrarDecimales.cs",
+              "RelativeDocumentMoniker": "Transpormacion Binario\\MostrarDecimales.cs",
+              "ToolTip": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transpormacion Binario\\Transpormacion Binario\\MostrarDecimales.cs",
+              "RelativeToolTip": "Transpormacion Binario\\MostrarDecimales.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:43:46.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "FormularioDecimal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transpormacion Binario\\Transpormacion Binario\\FormularioDecimal.cs",
+              "RelativeDocumentMoniker": "Transpormacion Binario\\FormularioDecimal.cs",
+              "ToolTip": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transpormacion Binario\\Transpormacion Binario\\FormularioDecimal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Transpormacion Binario\\FormularioDecimal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:30:37.208Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormularioHexadecimal.cs",
+              "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transpormacion Binario\\Transpormacion Binario\\FormularioHexadecimal.cs",
+              "RelativeDocumentMoniker": "Transpormacion Binario\\FormularioHexadecimal.cs",
+              "ToolTip": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transpormacion Binario\\Transpormacion Binario\\FormularioHexadecimal.cs",
+              "RelativeToolTip": "Transpormacion Binario\\FormularioHexadecimal.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAqwD8AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:11:33.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormularioHexadecimal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transpormacion Binario\\Transpormacion Binario\\FormularioHexadecimal.cs",
+              "RelativeDocumentMoniker": "Transpormacion Binario\\FormularioHexadecimal.cs",
+              "ToolTip": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transpormacion Binario\\Transpormacion Binario\\FormularioHexadecimal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Transpormacion Binario\\FormularioHexadecimal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:11:30.217Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ConversorDecimal.cs",
               "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transpormacion Binario\\Transpormacion Binario\\ConversorDecimal.cs",
               "RelativeDocumentMoniker": "Transpormacion Binario\\ConversorDecimal.cs",
               "ToolTip": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transpormacion Binario\\Transpormacion Binario\\ConversorDecimal.cs",
               "RelativeToolTip": "Transpormacion Binario\\ConversorDecimal.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAABcAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-21T12:05:03.311Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "ConversorHexadecimal.cs",
               "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transpormacion Binario\\Transpormacion Binario\\ConversorHexadecimal.cs",
               "RelativeDocumentMoniker": "Transpormacion Binario\\ConversorHexadecimal.cs",
-              "ToolTip": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transpormacion Binario\\Transpormacion Binario\\ConversorHexadecimal.cs*",
-              "RelativeToolTip": "Transpormacion Binario\\ConversorHexadecimal.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "ToolTip": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transpormacion Binario\\Transpormacion Binario\\ConversorHexadecimal.cs",
+              "RelativeToolTip": "Transpormacion Binario\\ConversorHexadecimal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE4AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-21T12:02:55.167Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "FormularioBinario.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transpormacion Binario\\Transpormacion Binario\\FormularioBinario.cs",
               "RelativeDocumentMoniker": "Transpormacion Binario\\FormularioBinario.cs",
@@ -68,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "ConversorBinario.cs",
               "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transpormacion Binario\\Transpormacion Binario\\ConversorBinario.cs",
               "RelativeDocumentMoniker": "Transpormacion Binario\\ConversorBinario.cs",

@@ -45,17 +45,22 @@ namespace Transpormacion_Binario
             }
         }
 
-        private void btnDecimalH_Click(object sender, EventArgs e)
-        {
-            int resultadoHexadecimal = ch.HexadecimalADecimal();
-            txtImprimirResultadoHexadecimal.Text = resultadoHexadecimal.ToString();
+        //private void btnDecimalH_Click(object sender, EventArgs e)
+        //{
+        //    int resultadoHexadecimal = ch.HexadecimalaDecimal();
+        //    txtImprimirResultadoHexadecimal.Text = resultadoHexadecimal.ToString();
             
-        }
+        //}
 
-        private void btnOctalH_Click(object sender, EventArgs e)
-        {
-            String resultadoOctal = ch.HexadecimalAOctal();
-            txtImprimirResultadoHexadecimal.Text += resultadoOctal.ToString();
-        }
+        //private void btnOctalH_Click(object sender, EventArgs e)
+        //{
+        //    String resultadoOctal = ch.HexadecimalAOctal();
+        //    txtImprimirResultadoHexadecimal.Text += resultadoOctal.ToString();
+        //}
+
+        //private void btnBinarioH_Click(object sender, EventArgs e)
+        //{
+
+        //}
     }
 }

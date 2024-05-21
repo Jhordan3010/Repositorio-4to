@@ -34,11 +34,13 @@
             this.btnHexadecimal = new System.Windows.Forms.Button();
             this.btnBinario = new System.Windows.Forms.Button();
             this.btnIngrsar = new System.Windows.Forms.Button();
+            this.btnMostrar = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txtImprimirResultadoDecimal
             // 
-            this.txtImprimirResultadoDecimal.Location = new System.Drawing.Point(105, 338);
+            this.txtImprimirResultadoDecimal.Location = new System.Drawing.Point(105, 340);
             this.txtImprimirResultadoDecimal.Name = "txtImprimirResultadoDecimal";
             this.txtImprimirResultadoDecimal.Size = new System.Drawing.Size(184, 22);
             this.txtImprimirResultadoDecimal.TabIndex = 11;
@@ -90,11 +92,30 @@
             this.btnIngrsar.UseVisualStyleBackColor = true;
             this.btnIngrsar.Click += new System.EventHandler(this.btnIngrsar_Click);
             // 
+            // btnMostrar
+            // 
+            this.btnMostrar.Location = new System.Drawing.Point(325, 303);
+            this.btnMostrar.Name = "btnMostrar";
+            this.btnMostrar.Size = new System.Drawing.Size(75, 23);
+            this.btnMostrar.TabIndex = 13;
+            this.btnMostrar.Text = "Mostrar";
+            this.btnMostrar.UseVisualStyleBackColor = true;
+            this.btnMostrar.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(105, 422);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 22);
+            this.textBox1.TabIndex = 14;
+            // 
             // FormularioDecimal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(411, 450);
+            this.ClientSize = new System.Drawing.Size(488, 638);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btnMostrar);
             this.Controls.Add(this.txtImprimirResultadoDecimal);
             this.Controls.Add(this.txtNumeroDecimal);
             this.Controls.Add(this.btnOctal);
@@ -116,5 +137,7 @@
         private System.Windows.Forms.Button btnHexadecimal;
         private System.Windows.Forms.Button btnBinario;
         private System.Windows.Forms.Button btnIngrsar;
+        private System.Windows.Forms.Button btnMostrar;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

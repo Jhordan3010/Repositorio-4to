@@ -77,7 +77,5 @@ namespace Transpormacion_Binario
             {
                 return _hexadecimal;
             }
-       
-
     }
 }

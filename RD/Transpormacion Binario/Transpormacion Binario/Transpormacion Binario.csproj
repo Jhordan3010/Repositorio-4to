@@ -80,6 +80,7 @@
     <Compile Include="FormularioOctal.Designer.cs">
       <DependentUpon>FormularioOctal.cs</DependentUpon>
     </Compile>
+    <Compile Include="MostrarDecimales.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormularioBinario.resx">
