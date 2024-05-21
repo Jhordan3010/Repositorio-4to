@@ -7,66 +7,77 @@ using System.Threading.Tasks;
 namespace Transpormacion_Binario
 {
     internal class ConversorHexadecimal
-    {
-        private string hexadecimal;
+    {        
+            private string _hexadecimal;
 
-        public ConversorHexadecimal(string hexadecimal)
-        {
-            this.hexadecimal = hexadecimal.ToUpper();
-        }
-
-        public bool EsHexadecimal(string str)
-        {
-            foreach (char c in str)
+            public ConversorHexadecimal(string hexadecimal)
             {
-                if (!char.IsDigit(c) && (c < 'A' || c > 'F'))
+                if (!EsHexadecimal(hexadecimal))
                 {
-                    return false;
+                    throw new ArgumentException("Invalid hexadecimal string.");
                 }
-            }
-            return true;
-        }
 
-        public int HexadecimalADecimal()
-        {
-            if (!EsHexadecimal(hexadecimal))
+                _hexadecimal = hexadecimal.ToUpper(); // Convert to uppercase for consistent processing
+            }
+
+            public bool EsHexadecimal(string str)
             {
-                throw new ArgumentException("No es un número hexadecimal válido");
+                foreach (char c in str)
+                {
+                    if (!char.IsDigit(c) && !(c >= 'A' && c <= 'F')) // Use inclusive range for valid hex characters
+                    {
+                        return false;
+                    }
+                }
+                return true;
             }
 
-            int decimalValue = 0;
-            int length = hexadecimal.Length;
-
-            for (int i = 0; i < length; i++)
+            public string HexadecimalADecimal(string valorHexa) // Renamed for clarity
             {
-                char digit = hexadecimal[i];
-                int digitValue = char.IsDigit(digit) ? (int)digit - '0' : (int)digit - 'A' + 10;
-                decimalValue += digitValue * (int)Math.Pow(16, length - 1 - i);
+                if (!EsHexadecimal(valorHexa))
+                {
+                    throw new ArgumentException("Invalid hexadecimal string.");
+                }
+
+                int decimalResult = 0;
+                for (int i = 0; i < valorHexa.Length; i++)
+                {
+                    char hexDigit = valorHexa[valorHexa.Length - 1 - i]; // Process from right to left (most significant digit first)
+                    int decimalValue;
+
+                    if (char.IsDigit(hexDigit))
+                    {
+                        decimalValue = hexDigit - '0';
+                    }
+                    else
+                    {
+                        decimalValue = char.ToUpper(hexDigit) - 'A' + 10;
+                    }
+
+                    decimalResult += decimalValue * (int)Math.Pow(16, i);
+                }
+                return decimalResult.ToString();
             }
 
-            return decimalValue;
-        }
+            public string HexadecimalABinario()
+            {
+                string decimalString = HexadecimalADecimal(_hexadecimal); // Use internal value for consistency
+                int decimalValue = int.Parse(decimalString);
+                return new ConversorDecimal(decimalValue).DecimalABinario(); // Assuming ConversorDecimal exists
+            }
 
-        public string HexadecimalABinario()
-        {
-            int decimalValue = HexadecimalADecimal();
-            return new ConversorDecimal(decimalValue).DecimalABinario();
-        }
+            public string HexadecimalAOctal()
+            {
+                string decimalString = HexadecimalADecimal(_hexadecimal); // Use internal value for consistency
+                int decimalValue = int.Parse(decimalString);
+                return new ConversorDecimal(decimalValue).DecimalAOctal(); // Assuming ConversorDecimal exists
+            }
 
-        public string HexadecimalAOctal()
-        {
-            int decimalValue = HexadecimalADecimal();
-            return new ConversorDecimal(decimalValue).DecimalAOctal();
-        }
+            public string GetHexadecimal()
+            {
+                return _hexadecimal;
+            }
+       
 
-        public string GetHexadecimal()
-        {
-            return hexadecimal;
-        }
-
-        public void SetHexadecimal(string hexadecimal)
-        {
-            this.hexadecimal = hexadecimal.ToUpper();
-        }
     }
 }
