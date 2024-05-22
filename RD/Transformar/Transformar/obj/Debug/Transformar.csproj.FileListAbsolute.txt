@@ -1,0 +1,7 @@
+C:\Users\jhord\OneDrive\Escritorio\Cuarto Semestre\Repsositorios\Repositorio-4to\RD\Transformar\Transformar\bin\Debug\Transformar.exe.config
+C:\Users\jhord\OneDrive\Escritorio\Cuarto Semestre\Repsositorios\Repositorio-4to\RD\Transformar\Transformar\bin\Debug\Transformar.exe
+C:\Users\jhord\OneDrive\Escritorio\Cuarto Semestre\Repsositorios\Repositorio-4to\RD\Transformar\Transformar\bin\Debug\Transformar.pdb
+C:\Users\jhord\OneDrive\Escritorio\Cuarto Semestre\Repsositorios\Repositorio-4to\RD\Transformar\Transformar\obj\Debug\Transformar.csproj.AssemblyReference.cache
+C:\Users\jhord\OneDrive\Escritorio\Cuarto Semestre\Repsositorios\Repositorio-4to\RD\Transformar\Transformar\obj\Debug\Transformar.csproj.CoreCompileInputs.cache
+C:\Users\jhord\OneDrive\Escritorio\Cuarto Semestre\Repsositorios\Repositorio-4to\RD\Transformar\Transformar\obj\Debug\Transformar.exe
+C:\Users\jhord\OneDrive\Escritorio\Cuarto Semestre\Repsositorios\Repositorio-4to\RD\Transformar\Transformar\obj\Debug\Transformar.pdb
