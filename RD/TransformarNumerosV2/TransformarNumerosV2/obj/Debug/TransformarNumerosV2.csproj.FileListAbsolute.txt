@@ -1,0 +1,12 @@
+C:\Users\jhord\OneDrive\Escritorio\Cuarto Semestre\Repsositorios\Repositorio-4to\RD\TransformarNumerosV2\TransformarNumerosV2\bin\Debug\TransformarNumerosV2.exe.config
+C:\Users\jhord\OneDrive\Escritorio\Cuarto Semestre\Repsositorios\Repositorio-4to\RD\TransformarNumerosV2\TransformarNumerosV2\bin\Debug\TransformarNumerosV2.exe
+C:\Users\jhord\OneDrive\Escritorio\Cuarto Semestre\Repsositorios\Repositorio-4to\RD\TransformarNumerosV2\TransformarNumerosV2\bin\Debug\TransformarNumerosV2.pdb
+C:\Users\jhord\OneDrive\Escritorio\Cuarto Semestre\Repsositorios\Repositorio-4to\RD\TransformarNumerosV2\TransformarNumerosV2\obj\Debug\TransformarNumerosV2.csproj.AssemblyReference.cache
+C:\Users\jhord\OneDrive\Escritorio\Cuarto Semestre\Repsositorios\Repositorio-4to\RD\TransformarNumerosV2\TransformarNumerosV2\obj\Debug\TransformarNumerosV2.Properties.Resources.resources
+C:\Users\jhord\OneDrive\Escritorio\Cuarto Semestre\Repsositorios\Repositorio-4to\RD\TransformarNumerosV2\TransformarNumerosV2\obj\Debug\TransformarNumerosV2.csproj.GenerateResource.cache
+C:\Users\jhord\OneDrive\Escritorio\Cuarto Semestre\Repsositorios\Repositorio-4to\RD\TransformarNumerosV2\TransformarNumerosV2\obj\Debug\TransformarNumerosV2.csproj.CoreCompileInputs.cache
+C:\Users\jhord\OneDrive\Escritorio\Cuarto Semestre\Repsositorios\Repositorio-4to\RD\TransformarNumerosV2\TransformarNumerosV2\obj\Debug\TransformarNumerosV2.exe
+C:\Users\jhord\OneDrive\Escritorio\Cuarto Semestre\Repsositorios\Repositorio-4to\RD\TransformarNumerosV2\TransformarNumerosV2\obj\Debug\TransformarNumerosV2.pdb
+C:\Users\jhord\OneDrive\Escritorio\Cuarto Semestre\Repsositorios\Repositorio-4to\RD\TransformarNumerosV2\TransformarNumerosV2\obj\Debug\TransformarNumerosV2.FormInicial.resources
+C:\Users\jhord\OneDrive\Escritorio\Cuarto Semestre\Repsositorios\Repositorio-4to\RD\TransformarNumerosV2\TransformarNumerosV2\obj\Debug\TransformarNumerosV2.FormularioDecimal.resources
+C:\Users\jhord\OneDrive\Escritorio\Cuarto Semestre\Repsositorios\Repositorio-4to\RD\TransformarNumerosV2\TransformarNumerosV2\obj\Debug\TransformarNumerosV2.FormularioOctal.resources
