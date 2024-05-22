@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transformar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{05E246EE-4AFE-4120-B3BA-2F02C6697E60}|Transformar\\Transformar.csproj|c:\\users\\jhord\\onedrive\\escritorio\\cuarto semestre\\repsositorios\\repositorio-4to\\rd\\transformar\\transformar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05E246EE-4AFE-4120-B3BA-2F02C6697E60}|Transformar\\Transformar.csproj|solutionrelative:transformar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{05E246EE-4AFE-4120-B3BA-2F02C6697E60}|Transformar\\Transformar.csproj|C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transformar\\transformar\\binario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05E246EE-4AFE-4120-B3BA-2F02C6697E60}|Transformar\\Transformar.csproj|solutionrelative:transformar\\binario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05E246EE-4AFE-4120-B3BA-2F02C6697E60}|Transformar\\Transformar.csproj|c:\\users\\jhord\\onedrive\\escritorio\\cuarto semestre\\repsositorios\\repositorio-4to\\rd\\transformar\\transformar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05E246EE-4AFE-4120-B3BA-2F02C6697E60}|Transformar\\Transformar.csproj|solutionrelative:transformar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05E246EE-4AFE-4120-B3BA-2F02C6697E60}|Transformar\\Transformar.csproj|C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transformar\\transformar\\octal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transformar\\Transformar\\Program.cs",
               "RelativeDocumentMoniker": "Transformar\\Program.cs",
@@ -48,15 +48,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Binario.cs",
               "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transformar\\Transformar\\Binario.cs",
               "RelativeDocumentMoniker": "Transformar\\Binario.cs",
-              "ToolTip": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transformar\\Transformar\\Binario.cs",
-              "RelativeToolTip": "Transformar\\Binario.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAqwEUAAAAHAAAA",
+              "ToolTip": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transformar\\Transformar\\Binario.cs*",
+              "RelativeToolTip": "Transformar\\Binario.cs*",
+              "ViewState": "AQIAADAAAAAAAAAAAAAQwGIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T01:42:32.989Z"
+              "WhenOpened": "2024-05-22T01:42:32.989Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
