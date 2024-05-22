@@ -3,44 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B6B0F035-E9B3-4E1F-AC0B-73493440A956}|TransformarNumerosV2\\TransformarNumerosV2.csproj|C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\transformarnumerosv2\\conversoroctal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6B0F035-E9B3-4E1F-AC0B-73493440A956}|TransformarNumerosV2\\TransformarNumerosV2.csproj|solutionrelative:transformarnumerosv2\\conversoroctal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B0F035-E9B3-4E1F-AC0B-73493440A956}|TransformarNumerosV2\\TransformarNumerosV2.csproj|c:\\users\\jhord\\onedrive\\escritorio\\cuarto semestre\\repsositorios\\repositorio-4to\\rd\\transformarnumerosv2\\transformarnumerosv2\\conversordecimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6B0F035-E9B3-4E1F-AC0B-73493440A956}|TransformarNumerosV2\\TransformarNumerosV2.csproj|solutionrelative:transformarnumerosv2\\conversordecimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B6B0F035-E9B3-4E1F-AC0B-73493440A956}|TransformarNumerosV2\\TransformarNumerosV2.csproj|c:\\users\\jhord\\onedrive\\escritorio\\cuarto semestre\\repsositorios\\repositorio-4to\\rd\\transformarnumerosv2\\transformarnumerosv2\\formulariodecimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6B0F035-E9B3-4E1F-AC0B-73493440A956}|TransformarNumerosV2\\TransformarNumerosV2.csproj|solutionrelative:transformarnumerosv2\\formulariodecimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6B0F035-E9B3-4E1F-AC0B-73493440A956}|TransformarNumerosV2\\TransformarNumerosV2.csproj|c:\\users\\jhord\\onedrive\\escritorio\\cuarto semestre\\repsositorios\\repositorio-4to\\rd\\transformarnumerosv2\\transformarnumerosv2\\formulariodecimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B6B0F035-E9B3-4E1F-AC0B-73493440A956}|TransformarNumerosV2\\TransformarNumerosV2.csproj|C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\transformarnumerosv2\\formulariodecimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B6B0F035-E9B3-4E1F-AC0B-73493440A956}|TransformarNumerosV2\\TransformarNumerosV2.csproj|solutionrelative:transformarnumerosv2\\formulariodecimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6B0F035-E9B3-4E1F-AC0B-73493440A956}|TransformarNumerosV2\\TransformarNumerosV2.csproj|c:\\users\\jhord\\onedrive\\escritorio\\cuarto semestre\\repsositorios\\repositorio-4to\\rd\\transformarnumerosv2\\transformarnumerosv2\\formulariooctal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B6B0F035-E9B3-4E1F-AC0B-73493440A956}|TransformarNumerosV2\\TransformarNumerosV2.csproj|C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\transformarnumerosv2\\formulariooctal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6B0F035-E9B3-4E1F-AC0B-73493440A956}|TransformarNumerosV2\\TransformarNumerosV2.csproj|solutionrelative:transformarnumerosv2\\formulariooctal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6B0F035-E9B3-4E1F-AC0B-73493440A956}|TransformarNumerosV2\\TransformarNumerosV2.csproj|c:\\users\\jhord\\onedrive\\escritorio\\cuarto semestre\\repsositorios\\repositorio-4to\\rd\\transformarnumerosv2\\transformarnumerosv2\\formulariooctal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B6B0F035-E9B3-4E1F-AC0B-73493440A956}|TransformarNumerosV2\\TransformarNumerosV2.csproj|solutionrelative:transformarnumerosv2\\formulariooctal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6B0F035-E9B3-4E1F-AC0B-73493440A956}|TransformarNumerosV2\\TransformarNumerosV2.csproj|c:\\users\\jhord\\onedrive\\escritorio\\cuarto semestre\\repsositorios\\repositorio-4to\\rd\\transformarnumerosv2\\transformarnumerosv2\\forminicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B6B0F035-E9B3-4E1F-AC0B-73493440A956}|TransformarNumerosV2\\TransformarNumerosV2.csproj|solutionrelative:transformarnumerosv2\\forminicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6B0F035-E9B3-4E1F-AC0B-73493440A956}|TransformarNumerosV2\\TransformarNumerosV2.csproj|c:\\users\\jhord\\onedrive\\escritorio\\cuarto semestre\\repsositorios\\repositorio-4to\\rd\\transformarnumerosv2\\transformarnumerosv2\\conversoroctal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6B0F035-E9B3-4E1F-AC0B-73493440A956}|TransformarNumerosV2\\TransformarNumerosV2.csproj|solutionrelative:transformarnumerosv2\\conversoroctal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6B0F035-E9B3-4E1F-AC0B-73493440A956}|TransformarNumerosV2\\TransformarNumerosV2.csproj|c:\\users\\jhord\\onedrive\\escritorio\\cuarto semestre\\repsositorios\\repositorio-4to\\rd\\transformarnumerosv2\\transformarnumerosv2\\forminicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6B0F035-E9B3-4E1F-AC0B-73493440A956}|TransformarNumerosV2\\TransformarNumerosV2.csproj|solutionrelative:transformarnumerosv2\\forminicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6B0F035-E9B3-4E1F-AC0B-73493440A956}|TransformarNumerosV2\\TransformarNumerosV2.csproj|c:\\users\\jhord\\onedrive\\escritorio\\cuarto semestre\\repsositorios\\repositorio-4to\\rd\\transformarnumerosv2\\transformarnumerosv2\\forminicial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6B0F035-E9B3-4E1F-AC0B-73493440A956}|TransformarNumerosV2\\TransformarNumerosV2.csproj|solutionrelative:transformarnumerosv2\\forminicial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6B0F035-E9B3-4E1F-AC0B-73493440A956}|TransformarNumerosV2\\TransformarNumerosV2.csproj|c:\\users\\jhord\\onedrive\\escritorio\\cuarto semestre\\repsositorios\\repositorio-4to\\rd\\transformarnumerosv2\\transformarnumerosv2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B6B0F035-E9B3-4E1F-AC0B-73493440A956}|TransformarNumerosV2\\TransformarNumerosV2.csproj|C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\transformarnumerosv2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6B0F035-E9B3-4E1F-AC0B-73493440A956}|TransformarNumerosV2\\TransformarNumerosV2.csproj|solutionrelative:transformarnumerosv2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6B0F035-E9B3-4E1F-AC0B-73493440A956}|TransformarNumerosV2\\TransformarNumerosV2.csproj|c:\\users\\jhord\\onedrive\\escritorio\\cuarto semestre\\repsositorios\\repositorio-4to\\rd\\transformarnumerosv2\\transformarnumerosv2\\formulariodecimal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6B0F035-E9B3-4E1F-AC0B-73493440A956}|TransformarNumerosV2\\TransformarNumerosV2.csproj|solutionrelative:transformarnumerosv2\\formulariodecimal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "FormularioDecimal.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\TransformarNumerosV2\\FormularioDecimal.cs",
               "RelativeDocumentMoniker": "TransformarNumerosV2\\FormularioDecimal.cs",
@@ -67,32 +51,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "ConversorDecimal.cs",
+              "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\TransformarNumerosV2\\ConversorDecimal.cs",
+              "RelativeDocumentMoniker": "TransformarNumerosV2\\ConversorDecimal.cs",
+              "ToolTip": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\TransformarNumerosV2\\ConversorDecimal.cs",
+              "RelativeToolTip": "TransformarNumerosV2\\ConversorDecimal.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA3wDQAAAB3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T19:16:03.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "FormularioDecimal.cs",
               "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\TransformarNumerosV2\\FormularioDecimal.cs",
               "RelativeDocumentMoniker": "TransformarNumerosV2\\FormularioDecimal.cs",
               "ToolTip": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\TransformarNumerosV2\\FormularioDecimal.cs",
               "RelativeToolTip": "TransformarNumerosV2\\FormularioDecimal.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAMwCEAAABDAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABcAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T00:48:20.511Z",
+              "WhenOpened": "2024-05-22T19:15:56.177Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormularioOctal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\TransformarNumerosV2\\FormularioOctal.cs",
-              "RelativeDocumentMoniker": "TransformarNumerosV2\\FormularioOctal.cs",
-              "ToolTip": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\TransformarNumerosV2\\FormularioOctal.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TransformarNumerosV2\\FormularioOctal.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T00:19:58.133Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "FormularioOctal.cs",
               "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\TransformarNumerosV2\\FormularioOctal.cs",
               "RelativeDocumentMoniker": "TransformarNumerosV2\\FormularioOctal.cs",
@@ -105,20 +90,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "ConversorOctal.cs",
               "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\TransformarNumerosV2\\ConversorOctal.cs",
               "RelativeDocumentMoniker": "TransformarNumerosV2\\ConversorOctal.cs",
-              "ToolTip": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\TransformarNumerosV2\\ConversorOctal.cs",
-              "RelativeToolTip": "TransformarNumerosV2\\ConversorOctal.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAEQAAAAJAAAA",
+              "ToolTip": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\TransformarNumerosV2\\ConversorOctal.cs*",
+              "RelativeToolTip": "TransformarNumerosV2\\ConversorOctal.cs*",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAYwFEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-21T23:59:23.383Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\TransformarNumerosV2\\Program.cs",
               "RelativeDocumentMoniker": "TransformarNumerosV2\\Program.cs",
@@ -126,59 +111,7 @@
               "RelativeToolTip": "TransformarNumerosV2\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T23:00:16.666Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FormInicial.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\TransformarNumerosV2\\FormInicial.Designer.cs",
-              "RelativeDocumentMoniker": "TransformarNumerosV2\\FormInicial.Designer.cs",
-              "ToolTip": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\TransformarNumerosV2\\FormInicial.Designer.cs",
-              "RelativeToolTip": "TransformarNumerosV2\\FormInicial.Designer.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBgAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T22:58:27.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FormInicial.cs",
-              "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\TransformarNumerosV2\\FormInicial.cs",
-              "RelativeDocumentMoniker": "TransformarNumerosV2\\FormInicial.cs",
-              "ToolTip": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\TransformarNumerosV2\\FormInicial.cs",
-              "RelativeToolTip": "TransformarNumerosV2\\FormInicial.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAewBwAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T22:57:20.203Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormInicial.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\TransformarNumerosV2\\FormInicial.cs",
-              "RelativeDocumentMoniker": "TransformarNumerosV2\\FormInicial.cs",
-              "ToolTip": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\TransformarNumerosV2\\FormInicial.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TransformarNumerosV2\\FormInicial.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T22:55:41.359Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FormularioDecimal.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\TransformarNumerosV2\\FormularioDecimal.Designer.cs",
-              "RelativeDocumentMoniker": "TransformarNumerosV2\\FormularioDecimal.Designer.cs",
-              "ToolTip": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\TransformarNumerosV2\\FormularioDecimal.Designer.cs",
-              "RelativeToolTip": "TransformarNumerosV2\\FormularioDecimal.Designer.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAAAHcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T22:40:30.969Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-21T23:00:16.666Z"
             }
           ]
         }

@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{05E246EE-4AFE-4120-B3BA-2F02C6697E60}|Transformar\\Transformar.csproj|solutionrelative:transformar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05E246EE-4AFE-4120-B3BA-2F02C6697E60}|Transformar\\Transformar.csproj|c:\\users\\jhord\\onedrive\\escritorio\\cuarto semestre\\repsositorios\\repositorio-4to\\rd\\transformar\\transformar\\binario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{05E246EE-4AFE-4120-B3BA-2F02C6697E60}|Transformar\\Transformar.csproj|C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transformar\\transformar\\binario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05E246EE-4AFE-4120-B3BA-2F02C6697E60}|Transformar\\Transformar.csproj|solutionrelative:transformar\\binario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05E246EE-4AFE-4120-B3BA-2F02C6697E60}|Transformar\\Transformar.csproj|c:\\users\\jhord\\onedrive\\escritorio\\cuarto semestre\\repsositorios\\repositorio-4to\\rd\\transformar\\transformar\\octal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{05E246EE-4AFE-4120-B3BA-2F02C6697E60}|Transformar\\Transformar.csproj|C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transformar\\transformar\\octal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05E246EE-4AFE-4120-B3BA-2F02C6697E60}|Transformar\\Transformar.csproj|solutionrelative:transformar\\octal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -26,47 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Binario.cs",
-              "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transformar\\Transformar\\Binario.cs",
-              "RelativeDocumentMoniker": "Transformar\\Binario.cs",
-              "ToolTip": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transformar\\Transformar\\Binario.cs",
-              "RelativeToolTip": "Transformar\\Binario.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAqwEUAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T01:42:32.989Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Octal.cs",
-              "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transformar\\Transformar\\Octal.cs",
-              "RelativeDocumentMoniker": "Transformar\\Octal.cs",
-              "ToolTip": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transformar\\Transformar\\Octal.cs",
-              "RelativeToolTip": "Transformar\\Octal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T23:38:35.613Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Decimal.cs",
-              "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transformar\\Transformar\\Decimal.cs",
-              "RelativeDocumentMoniker": "Transformar\\Decimal.cs",
-              "ToolTip": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transformar\\Transformar\\Decimal.cs",
-              "RelativeToolTip": "Transformar\\Decimal.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAQwDMAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T22:23:15.114Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -78,7 +39,48 @@
               "ViewState": "AQIAAFgAAAAAAAAAAAAAAIcAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-21T22:22:23.675Z",
+              "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Binario.cs",
+              "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transformar\\Transformar\\Binario.cs",
+              "RelativeDocumentMoniker": "Transformar\\Binario.cs",
+              "ToolTip": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transformar\\Transformar\\Binario.cs",
+              "RelativeToolTip": "Transformar\\Binario.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAqwEUAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T01:42:32.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Octal.cs",
+              "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transformar\\Transformar\\Octal.cs",
+              "RelativeDocumentMoniker": "Transformar\\Octal.cs",
+              "ToolTip": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transformar\\Transformar\\Octal.cs",
+              "RelativeToolTip": "Transformar\\Octal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T23:38:35.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Decimal.cs",
+              "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transformar\\Transformar\\Decimal.cs",
+              "RelativeDocumentMoniker": "Transformar\\Decimal.cs",
+              "ToolTip": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\Transformar\\Transformar\\Decimal.cs",
+              "RelativeToolTip": "Transformar\\Decimal.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwDMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T22:23:15.114Z"
             }
           ]
         }

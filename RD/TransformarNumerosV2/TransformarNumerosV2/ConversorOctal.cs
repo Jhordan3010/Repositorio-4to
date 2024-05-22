@@ -56,15 +56,28 @@ namespace TransformarNumerosV2
         private string ConvertirDecimalABase(int numeroDecimal, int baseNum, out List<string> pasos)
         {
             pasos = new List<string>();
-            if (numeroDecimal == 0) return "0";
+            if (numeroDecimal == 0)
+            {
+                pasos.Add("0");
+                return "0";
+            }
+
             string resultado = "";
+            List<int> residuos = new List<int>();
+
             while (numeroDecimal > 0)
             {
                 int residuo = numeroDecimal % baseNum;
-                resultado = residuo + resultado;
+                residuos.Add(residuo);
                 pasos.Add($"{numeroDecimal} ÷ {baseNum} = {numeroDecimal / baseNum} residuo {residuo}");
                 numeroDecimal /= baseNum;
             }
+
+            residuos.Reverse();
+            resultado = string.Join("", residuos);
+
+            pasos.Add($"\nLeyendo los residuos de abajo hacia arriba, {numeroDecimal} en base {baseNum} es {resultado}.\n");
+
             return resultado;
         }
     }
