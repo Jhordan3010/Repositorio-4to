@@ -28,5 +28,17 @@ namespace TransformarNumerosV2
             FormularioOctal fOctal = new FormularioOctal();
             fOctal.Show();
         }
+
+        private void btnBinario_Click(object sender, EventArgs e)
+        {
+            FormularioBinario fBinario = new FormularioBinario();
+            fBinario.Show();
+        }
+
+        private void btnHexadecimal_Click(object sender, EventArgs e)
+        {
+            FormularioHexadecimal fHexadecimal = new FormularioHexadecimal();
+            fHexadecimal.Show();
+        }
     }
 }
