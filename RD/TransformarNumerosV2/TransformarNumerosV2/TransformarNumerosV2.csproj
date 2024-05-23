@@ -47,7 +47,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConversorDecimal.cs" />
+    <Compile Include="ConversorHexadecimal.cs" />
     <Compile Include="ConversorOctal.cs" />
+    <Compile Include="ConversosBinario.cs" />
+    <Compile Include="FormularioBinario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioBinario.Designer.cs">
+      <DependentUpon>FormularioBinario.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormularioDecimal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +68,12 @@
     <Compile Include="FormInicial.Designer.cs">
       <DependentUpon>FormInicial.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormularioHexadecimal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioHexadecimal.Designer.cs">
+      <DependentUpon>FormularioHexadecimal.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormularioOctal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,11 +82,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormularioBinario.resx">
+      <DependentUpon>FormularioBinario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormularioDecimal.resx">
       <DependentUpon>FormularioDecimal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormInicial.resx">
       <DependentUpon>FormInicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioHexadecimal.resx">
+      <DependentUpon>FormularioHexadecimal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormularioOctal.resx">
       <DependentUpon>FormularioOctal.cs</DependentUpon>
