@@ -33,6 +33,8 @@ namespace TransformarNumerosV2
         {
             this.btnDecima = new System.Windows.Forms.Button();
             this.btnOctal = new System.Windows.Forms.Button();
+            this.btnBinario = new System.Windows.Forms.Button();
+            this.btnHexadecimal = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnDecima
@@ -47,7 +49,7 @@ namespace TransformarNumerosV2
             // 
             // btnOctal
             // 
-            this.btnOctal.Location = new System.Drawing.Point(250, 77);
+            this.btnOctal.Location = new System.Drawing.Point(97, 104);
             this.btnOctal.Name = "btnOctal";
             this.btnOctal.Size = new System.Drawing.Size(75, 23);
             this.btnOctal.TabIndex = 1;
@@ -55,11 +57,33 @@ namespace TransformarNumerosV2
             this.btnOctal.UseVisualStyleBackColor = true;
             this.btnOctal.Click += new System.EventHandler(this.btnOctal_Click);
             // 
+            // btnBinario
+            // 
+            this.btnBinario.Location = new System.Drawing.Point(97, 142);
+            this.btnBinario.Name = "btnBinario";
+            this.btnBinario.Size = new System.Drawing.Size(75, 23);
+            this.btnBinario.TabIndex = 2;
+            this.btnBinario.Text = "Binario";
+            this.btnBinario.UseVisualStyleBackColor = true;
+            this.btnBinario.Click += new System.EventHandler(this.btnBinario_Click);
+            // 
+            // btnHexadecimal
+            // 
+            this.btnHexadecimal.Location = new System.Drawing.Point(97, 181);
+            this.btnHexadecimal.Name = "btnHexadecimal";
+            this.btnHexadecimal.Size = new System.Drawing.Size(93, 23);
+            this.btnHexadecimal.TabIndex = 3;
+            this.btnHexadecimal.Text = "Hexadecimal";
+            this.btnHexadecimal.UseVisualStyleBackColor = true;
+            this.btnHexadecimal.Click += new System.EventHandler(this.btnHexadecimal_Click);
+            // 
             // FormInicial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(265, 263);
+            this.Controls.Add(this.btnHexadecimal);
+            this.Controls.Add(this.btnBinario);
             this.Controls.Add(this.btnOctal);
             this.Controls.Add(this.btnDecima);
             this.Name = "FormInicial";
@@ -72,5 +96,7 @@ namespace TransformarNumerosV2
 
         private System.Windows.Forms.Button btnDecima;
         private System.Windows.Forms.Button btnOctal;
+        private System.Windows.Forms.Button btnBinario;
+        private System.Windows.Forms.Button btnHexadecimal;
     }
 }
