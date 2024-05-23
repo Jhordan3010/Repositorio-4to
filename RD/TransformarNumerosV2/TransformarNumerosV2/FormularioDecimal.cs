@@ -35,7 +35,7 @@ namespace TransformarNumerosV2
                 string octalSteps = converter.PrintConversionSteps(decimalNumber, 8);
                 string hexSteps = converter.PrintConversionSteps(decimalNumber, 16, "0123456789ABCDEF");
 
-                lblPasos.Text = $"Pasos para Binario:{Environment.NewLine}{binarySteps}{Environment.NewLine}\nPasos para Octal:{Environment.NewLine}{octalSteps}{Environment.NewLine}Pasos para Hexadecimal:{Environment.NewLine}{hexSteps}";
+                lblPasos.Text = $"Pasos para Binario:{Environment.NewLine}{binarySteps}{Environment.NewLine}{Environment.NewLine}{octalSteps}{Environment.NewLine}{Environment.NewLine}{hexSteps}";
             
             }
             else
