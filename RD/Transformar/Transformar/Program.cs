@@ -95,18 +95,57 @@ namespace Transformar
             //{
             //    Console.WriteLine($"Error: {ex.Message}");
             //}
-            string numeroOctal = "25"; // Ingresa aquí el número octal que deseas convertir
+            //    string numeroOctal = "25"; // Ingresa aquí el número octal que deseas convertir
 
-            Octal convertidor = new Octal();
+            //    Octal convertidor = new Octal();
+
+            //    try
+            //    {
+            //        int decimalResult = convertidor.ConvertirADecimal(numeroOctal, out List<string> pasosDecimal);
+            //        string binarioResult = convertidor.ConvertirABinario(numeroOctal, out List<string> pasosBinario);
+            //        string hexadecimalResult = convertidor.ConvertirAHexadecimal(numeroOctal, out List<string> pasosHexadecimal);
+
+            //        Console.WriteLine($"Decimal: {decimalResult}");
+            //        Console.WriteLine($"Binario: {binarioResult}");
+            //        Console.WriteLine($"Hexadecimal: {hexadecimalResult}");
+
+            //        Console.WriteLine("Pasos de conversión a decimal:");
+            //        foreach (string paso in pasosDecimal)
+            //        {
+            //            Console.WriteLine(paso);
+            //        }
+
+            //        Console.WriteLine("Pasos de conversión a binario:");
+            //        foreach (string paso in pasosBinario)
+            //        {
+            //            Console.WriteLine(paso);
+            //        }
+
+            //        Console.WriteLine("Pasos de conversión a hexadecimal:");
+            //        foreach (string paso in pasosHexadecimal)
+            //        {
+            //            Console.WriteLine(paso);
+            //        }
+            //    }
+            //    catch (ArgumentException ex)
+            //    {
+            //        Console.WriteLine($"Error: {ex.Message}");
+            //    }
+
+
+            Console.WriteLine("Ingrese un número binario:");
+            string numeroBinario = Console.ReadLine();
+
+            Binario convertidor = new Binario();
 
             try
             {
-                int decimalResult = convertidor.ConvertirADecimal(numeroOctal, out List<string> pasosDecimal);
-                string binarioResult = convertidor.ConvertirABinario(numeroOctal, out List<string> pasosBinario);
-                string hexadecimalResult = convertidor.ConvertirAHexadecimal(numeroOctal, out List<string> pasosHexadecimal);
+                int decimalResult = convertidor.ConvertirADecimal(numeroBinario, out List<string> pasosDecimal);
+                string octalResult = convertidor.ConvertirAOctal(numeroBinario, out List<string> pasosOctal);
+                string hexadecimalResult = convertidor.ConvertirAHexadecimal(numeroBinario, out List<string> pasosHexadecimal);
 
                 Console.WriteLine($"Decimal: {decimalResult}");
-                Console.WriteLine($"Binario: {binarioResult}");
+                Console.WriteLine($"Octal: {octalResult}");
                 Console.WriteLine($"Hexadecimal: {hexadecimalResult}");
 
                 Console.WriteLine("Pasos de conversión a decimal:");
@@ -115,8 +154,8 @@ namespace Transformar
                     Console.WriteLine(paso);
                 }
 
-                Console.WriteLine("Pasos de conversión a binario:");
-                foreach (string paso in pasosBinario)
+                Console.WriteLine("Pasos de conversión a octal:");
+                foreach (string paso in pasosOctal)
                 {
                     Console.WriteLine(paso);
                 }
