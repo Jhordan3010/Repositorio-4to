@@ -54,9 +54,19 @@
                 "file": "Diseño/Drawing 2024-05-20 11.06.52.excalidraw.md"
               }
             }
+          },
+          {
+            "id": "c42948b0551dcced",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "BD/Drawing 2024-05-27 07.52.50.excalidraw.md"
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -122,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Diseño/Drawing 2024-05-20 11.06.52.excalidraw.md",
+                "file": "BD/Drawing 2024-05-27 07.52.50.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Diseño/Drawing 2024-05-20 11.06.52.excalidraw.md",
+                "file": "BD/Drawing 2024-05-27 07.52.50.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diseño/Drawing 2024-05-20 11.06.52.excalidraw.md"
+                "file": "BD/Drawing 2024-05-27 07.52.50.excalidraw.md"
               }
             }
           },
@@ -192,10 +202,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0313f478976f7fd8",
+  "active": "c42948b0551dcced",
   "lastOpenFiles": [
-    "Estadistica/Capitulo 3.md",
     "Diseño/Drawing 2024-05-20 11.06.52.excalidraw.md",
+    "BD/Drawing 2024-05-27 07.52.50.excalidraw.md",
+    "BD",
+    "Estadistica/Capitulo 3.md",
     "Excalidraw",
     "Diseño/Bancos de germoplasma in vitro.md",
     "Estadistica/Pasted Image 20240515102444_970.jpg",
