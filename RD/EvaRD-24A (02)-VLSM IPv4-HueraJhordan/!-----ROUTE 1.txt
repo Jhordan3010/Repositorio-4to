@@ -1,0 +1,72 @@
+!-----ROUTE 1
+enable
+configure terminal
+
+hostname R1
+!--LAN 01--
+R1(config)#interface Gig0/0/0
+ip address 131.200.0.1 255.248.0.0
+no shutdown
+
+!--LAN 02--
+interface Gig0/0/1
+ip address 131.210.0.1 255.254.0.0
+no shutdown
+
+!--LAN 03--
+interface Gig0/0/2
+ip address 131.213.64.1 255.255.224.0
+no shutdown
+
+!--WAN 01--
+interface Se0/1/0
+ip address 131.213.112.1 255.255.255.252
+no shutdown
+
+
+!--WAN 03--
+interface Se0/1/1
+ip address 131.213.112.9 255.255.255.252
+no shutdown
+
+
+#!--Tabla de Enrutamiento--
+#ip route 0.0.0.0 0.0.0.0 131.213.112.2
+
+
+
+
+!-----ROUTE 2
+enable
+configure terminal
+
+hostname R1
+!--LAN 04--
+R1(config)#interface Gig0/0/0
+ip address 131.192.0.2 255.248.0.0
+no shutdown
+
+!--LAN 05--
+interface Gig0/0/1
+ip address 131.213.0.5 255.254.0.0
+no shutdown
+
+!--LAN 06--
+interface Gig0/0/2
+ip address 131.212.128.1 255.255.128.0
+no shutdown
+
+!--WAN 01--
+interface Se0/1/0
+ip address 131.213.112.1 255.255.255.252
+no shutdown
+
+
+!--WAN 03--
+interface Se0/1/1
+ip address 131.213.112.9 255.255.255.252
+no shutdown
+
+
+#!--Tabla de Enrutamiento--
+#ip route 0.0.0.0 0.0.0.0 131.213.112.2
