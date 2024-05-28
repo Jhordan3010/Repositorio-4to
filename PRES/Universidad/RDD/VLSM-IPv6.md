@@ -67,5 +67,5 @@ UNICAST, MULTICAST, ANYCAST
 	**Ejemplo de subneteo IPv6**
 		![[Subneteo Ipv6.png]]
 	**Asignación de subred IPv6**
-		 La topología de ejemplo requiere cinco subredes una para cada LAN, asi como para el enlace en serie entre R1 y R2.
+		 La topología de ejemplo requiere cinco subredes una para cada LAN, así como para el enlace en serie entre R1 y R2.
 		 Se asigna las cinco subredes
