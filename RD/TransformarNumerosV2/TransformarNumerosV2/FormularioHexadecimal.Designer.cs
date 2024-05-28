@@ -34,6 +34,8 @@
             this.lblDecimal = new System.Windows.Forms.Label();
             this.lblOctal = new System.Windows.Forms.Label();
             this.lblBinario = new System.Windows.Forms.Label();
+            this.btnDecimal = new System.Windows.Forms.Button();
+            this.btnOctal = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblPasos
@@ -41,9 +43,8 @@
             this.lblPasos.AutoSize = true;
             this.lblPasos.Location = new System.Drawing.Point(13, 161);
             this.lblPasos.Name = "lblPasos";
-            this.lblPasos.Size = new System.Drawing.Size(46, 16);
+            this.lblPasos.Size = new System.Drawing.Size(0, 16);
             this.lblPasos.TabIndex = 12;
-            this.lblPasos.Text = "Pasos";
             // 
             // btnConvertir
             // 
@@ -88,11 +89,35 @@
             this.lblBinario.Size = new System.Drawing.Size(0, 16);
             this.lblBinario.TabIndex = 15;
             // 
+            // btnDecimal
+            // 
+            this.btnDecimal.Location = new System.Drawing.Point(437, 13);
+            this.btnDecimal.Margin = new System.Windows.Forms.Padding(4);
+            this.btnDecimal.Name = "btnDecimal";
+            this.btnDecimal.Size = new System.Drawing.Size(100, 28);
+            this.btnDecimal.TabIndex = 16;
+            this.btnDecimal.Text = "Decimal";
+            this.btnDecimal.UseVisualStyleBackColor = true;
+            this.btnDecimal.Click += new System.EventHandler(this.btnDecimal_Click);
+            // 
+            // btnOctal
+            // 
+            this.btnOctal.Location = new System.Drawing.Point(299, 13);
+            this.btnOctal.Margin = new System.Windows.Forms.Padding(4);
+            this.btnOctal.Name = "btnOctal";
+            this.btnOctal.Size = new System.Drawing.Size(100, 28);
+            this.btnOctal.TabIndex = 17;
+            this.btnOctal.Text = "Octal";
+            this.btnOctal.UseVisualStyleBackColor = true;
+            this.btnOctal.Click += new System.EventHandler(this.btnOctal_Click);
+            // 
             // FormularioHexadecimal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(583, 707);
+            this.Controls.Add(this.btnOctal);
+            this.Controls.Add(this.btnDecimal);
             this.Controls.Add(this.lblBinario);
             this.Controls.Add(this.lblOctal);
             this.Controls.Add(this.lblDecimal);
@@ -114,5 +139,7 @@
         private System.Windows.Forms.Label lblDecimal;
         private System.Windows.Forms.Label lblOctal;
         private System.Windows.Forms.Label lblBinario;
+        private System.Windows.Forms.Button btnDecimal;
+        private System.Windows.Forms.Button btnOctal;
     }
 }

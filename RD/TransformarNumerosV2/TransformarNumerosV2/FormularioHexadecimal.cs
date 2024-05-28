@@ -24,17 +24,17 @@ namespace TransformarNumerosV2
 
             try
             {
-                int decimalResult = convertidor.ConvertirADecimal(numeroHexadecimal, out List<string> pasosDecimal);
-                string octalResult = convertidor.ConvertirAOctal(numeroHexadecimal, out List<string> pasosOctal);
+                
+                
                 string binarioResult = convertidor.ConvertirABinario(numeroHexadecimal, out List<string> pasosBinario);
 
-                lblDecimal.Text = $"Decimal: {decimalResult}";
-                lblOctal.Text = $"Octal: {octalResult}";
+                
+                
                 lblBinario.Text = $"Binario: {binarioResult}";
 
-                lblPasos.Text += string.Join("\r\n", pasosDecimal);
+                
 
-                lblPasos.Text += string.Join("\r\n", pasosOctal);
+                
 
                 lblPasos.Text += string.Join("\r\n", pasosBinario);
             }
@@ -42,6 +42,26 @@ namespace TransformarNumerosV2
             {
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void btnOctal_Click(object sender, EventArgs e)
+        {
+            string numeroHexadecimal = txtNumeroHexadecimal.Text;
+            ConversorHexadecimal convertidor = new ConversorHexadecimal();
+
+            string octalResult = convertidor.ConvertirAOctal(numeroHexadecimal, out List<string> pasosOctal);
+            lblOctal.Text = $"Octal: {octalResult}";
+            lblPasos.Text += string.Join("\r\n", pasosOctal);
+        }
+
+        private void btnDecimal_Click(object sender, EventArgs e)
+        {
+            string numeroHexadecimal = txtNumeroHexadecimal.Text;
+            ConversorHexadecimal convertidor = new ConversorHexadecimal();
+
+            int decimalResult = convertidor.ConvertirADecimal(numeroHexadecimal, out List<string> pasosDecimal);
+            lblDecimal.Text = $"Decimal: {decimalResult}";
+            lblPasos.Text += string.Join("\r\n", pasosDecimal);
         }
     }
 }
