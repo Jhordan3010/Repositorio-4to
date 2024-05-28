@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 273.5
   },
   "right": {
     "id": "17b2a4928de3e5d6",
@@ -169,8 +169,8 @@
   "active": "f7aa0b93776ba3e3",
   "lastOpenFiles": [
     "RDD/VLSM-IPv6.md",
-    "Estadistica/Capitulo 3.md",
     "Estadistica/Capitulo 4.md",
+    "Estadistica/Capitulo 3.md",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Estadistica/Capitulo 2.md",
