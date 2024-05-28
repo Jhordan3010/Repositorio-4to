@@ -60,4 +60,12 @@ UNICAST, MULTICAST, ANYCAST
 		El IEEE define el identificador unico extendido o el proceso eui-64 modificando que realiza lo siguiente:
 			- Un valor de 16 bits de fffe se inserta en el centro de la dirección MaAC Ethernet de 48 bits del cliente.
 			- El 7° bit de la dirección MAC del cliente se invierte del binario 0 al 1.
-			
+**3.- Direccionamiento IPv6**
+	**División de subredes **
+		División en subredes mediante la ID de subred**
+		Ipv6  se diseño teniendo en cuneta las subredes.
+	**Ejemplo de subneteo IPv6**
+		![[Subneteo Ipv6.png]]
+	**Asignación de subred IPv6**
+		 La topología de ejemplo requiere cinco subredes una para cada LAN, asi como para el enlace en serie entre R1 y R2.
+		 Se asigna las cinco subredes
