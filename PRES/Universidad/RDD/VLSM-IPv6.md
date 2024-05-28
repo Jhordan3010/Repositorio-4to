@@ -46,3 +46,4 @@ UNICAST, MULTICAST, ANYCAST
 
 **Configuración de una dirección Link-Local Unicast estática**
 	Configura la LLA manualmente permite crear una dirección  
+	
