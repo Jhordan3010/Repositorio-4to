@@ -46,4 +46,13 @@ UNICAST, MULTICAST, ANYCAST
 
 **Configuración de una dirección Link-Local Unicast estática**
 	Configura la LLA manualmente permite crear una dirección  
-	
+
+**Direccionamiento dinámico par GUA IPv6**
+	**Mensajes RS y RA**
+		Los dispositivos obtienen direcciones GUA dinámicamente a través de mensajes de Internet Control Message Prorocol version 6(ICMPv6)
+		Los mensajes de solicitud de router (RS ) son enviados por dispositivos host para descubrir router IPv6.
+		Los router envían mensajes de anuncio de router para información a lo host  sobre como obtener un gua Ipv6 y proporcionar util de red
+		-EL RA puede proporcionar tres métodos para configurar un Gua  IPv6:
+			SLAAC
+			SLAAC con servidor DHCPv6 stateless
+			stateful DHPv6(no SLAAC)
