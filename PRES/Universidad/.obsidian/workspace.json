@@ -59,9 +59,11 @@
             "id": "c42948b0551dcced",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "BD/Drawing 2024-05-27 07.52.50.excalidraw.md"
+                "file": "RDD/VLSM-IPv6.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -132,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BD/Drawing 2024-05-27 07.52.50.excalidraw.md",
+                "file": "RDD/VLSM-IPv6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BD/Drawing 2024-05-27 07.52.50.excalidraw.md",
+                "file": "RDD/VLSM-IPv6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BD/Drawing 2024-05-27 07.52.50.excalidraw.md"
+                "file": "RDD/VLSM-IPv6.md"
               }
             }
           },
@@ -204,8 +206,8 @@
   },
   "active": "c42948b0551dcced",
   "lastOpenFiles": [
-    "Diseño/Drawing 2024-05-20 11.06.52.excalidraw.md",
     "BD/Drawing 2024-05-27 07.52.50.excalidraw.md",
+    "Diseño/Drawing 2024-05-20 11.06.52.excalidraw.md",
     "BD",
     "Estadistica/Capitulo 3.md",
     "Excalidraw",
@@ -213,7 +215,7 @@
     "Estadistica/Pasted Image 20240515102444_970.jpg",
     "Diseño",
     "Estadistica/Capitulo 2.md",
-    "RDD/VLSM.md",
+    "RDD/VLSM-IPv6.md",
     "2024-05-14.md",
     "RDD",
     "Excalidraw/Drawing 2024-05-08 07.32.13.excalidraw.md",

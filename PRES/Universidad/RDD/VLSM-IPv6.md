@@ -42,4 +42,7 @@ UNICAST, MULTICAST, ANYCAST
 	   - El prefijo de enrutamiento global es la parte del prefijo, o red, de la dirección asignada por el proveedor.
 	  ID de subred
 	   - El campo id de subred es el área entre el prefijó de enrutamiento global.
-	
+
+
+**Configuración de una dirección Link-Local Unicast estática**
+	Configura la LLA manualmente permite crear una dirección  
