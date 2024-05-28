@@ -64,8 +64,9 @@ UNICAST, MULTICAST, ANYCAST
 	**División de subredes **
 		División en subredes mediante la ID de subred**
 		Ipv6  se diseño teniendo en cuneta las subredes.
-	**Ejemplo de subneteo IPv6**
-		![[Subneteo Ipv6.png]]
+	**Ejemplo de Subneteo IPv6**
+		[[Subneteo Ipv6.png]]
 	**Asignación de subred IPv6**
 		 La topología de ejemplo requiere cinco subredes una para cada LAN, así como para el enlace en serie entre R1 y R2.
 		 Se asigna las cinco subredes
+		 

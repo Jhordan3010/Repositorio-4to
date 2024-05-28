@@ -1,3 +1,5 @@
+
+[[Capitulo 3]]
 **Encuesta**
 	- Es una técnica de investigación ampliamente  utilizada como procedimiento(cuantitativa), ya que permite obtener y elaborar datos de modo rápido y eficaz.
 	- Posee entre otras ventajas, la posibilidad de aplicaciones .
