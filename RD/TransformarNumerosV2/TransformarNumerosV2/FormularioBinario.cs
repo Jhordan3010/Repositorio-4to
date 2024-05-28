@@ -20,29 +20,28 @@ namespace TransformarNumerosV2
         private void btnConvertir_Click(object sender, EventArgs e)
         {
             string numeroBinario = txtNumeroBinario.Text;
+            ConversosBinario convertidor = new ConversosBinario();         
+            int decimalResult = convertidor.ConvertirADecimal(numeroBinario, out List<string> pasosDecimal);   
+            lblResuladoDecimal.Text = $"Decimal: {decimalResult}";
+            lblPasos.Text += string.Join("\r\n", pasosDecimal);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string numeroBinario = txtNumeroBinario.Text;
             ConversosBinario convertidor = new ConversosBinario();
+            string octalResult = convertidor.ConvertirAOctal(numeroBinario, out List<string> pasosOctal);
+            lblResuladoOctal.Text = $"Octal: {octalResult}";
+            lblPasos.Text += string.Join("\r\n", pasosOctal);
+        }
 
-            try
-            {
-                int decimalResult = convertidor.ConvertirADecimal(numeroBinario, out List<string> pasosDecimal);
-                string octalResult = convertidor.ConvertirAOctal(numeroBinario, out List<string> pasosOctal);
-                string hexadecimalResult = convertidor.ConvertirAHexadecimal(numeroBinario, out List<string> pasosHexadecimal);
-
-                lblResuladoDecimal.Text = $"Decimal: {decimalResult}";
-                lblResuladoOctal.Text = $"Octal: {octalResult}";
-                lblResuladoHexadecimal.Text = $"Hexadecimal: {hexadecimalResult}";
-
-
-                lblPasos.Text += string.Join("\r\n", pasosDecimal);
-
-                lblPasos.Text += string.Join("\r\n", pasosOctal);
-
-                lblPasos.Text += string.Join("\r\n", pasosHexadecimal);
-            }
-            catch (ArgumentException ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+        private void btnHexadecimal_Click(object sender, EventArgs e)
+        {
+            string numeroBinario = txtNumeroBinario.Text;
+            ConversosBinario convertidor = new ConversosBinario();
+            string hexadecimalResult = convertidor.ConvertirAHexadecimal(numeroBinario, out List<string> pasosHexadecimal);
+            lblResuladoHexadecimal.Text = $"Hexadecimal: {hexadecimalResult}";
+            lblPasos.Text += string.Join("\r\n", pasosHexadecimal);
         }
     }
 }

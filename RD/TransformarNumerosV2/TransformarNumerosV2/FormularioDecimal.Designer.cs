@@ -32,8 +32,10 @@
             this.lblBinarioResul = new System.Windows.Forms.Label();
             this.lblOctalResul = new System.Windows.Forms.Label();
             this.lblHexadecimalResul = new System.Windows.Forms.Label();
-            this.btnConvertir = new System.Windows.Forms.Button();
+            this.btnOctal = new System.Windows.Forms.Button();
             this.lblPasos = new System.Windows.Forms.Label();
+            this.btnBinario = new System.Windows.Forms.Button();
+            this.btnHexadecimal = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtNumeroDecimal
@@ -71,16 +73,16 @@
             this.lblHexadecimalResul.Size = new System.Drawing.Size(0, 16);
             this.lblHexadecimalResul.TabIndex = 3;
             // 
-            // btnConvertir
+            // btnOctal
             // 
-            this.btnConvertir.Location = new System.Drawing.Point(173, 12);
-            this.btnConvertir.Margin = new System.Windows.Forms.Padding(4);
-            this.btnConvertir.Name = "btnConvertir";
-            this.btnConvertir.Size = new System.Drawing.Size(100, 28);
-            this.btnConvertir.TabIndex = 4;
-            this.btnConvertir.Text = "Convertir";
-            this.btnConvertir.UseVisualStyleBackColor = true;
-            this.btnConvertir.Click += new System.EventHandler(this.btnConvertir_Click);
+            this.btnOctal.Location = new System.Drawing.Point(173, 12);
+            this.btnOctal.Margin = new System.Windows.Forms.Padding(4);
+            this.btnOctal.Name = "btnOctal";
+            this.btnOctal.Size = new System.Drawing.Size(100, 28);
+            this.btnOctal.TabIndex = 4;
+            this.btnOctal.Text = "Octal";
+            this.btnOctal.UseVisualStyleBackColor = true;
+            this.btnOctal.Click += new System.EventHandler(this.btnConvertir_Click);
             // 
             // lblPasos
             // 
@@ -91,13 +93,37 @@
             this.lblPasos.TabIndex = 6;
             this.lblPasos.Text = "Pasos";
             // 
+            // btnBinario
+            // 
+            this.btnBinario.Location = new System.Drawing.Point(298, 15);
+            this.btnBinario.Margin = new System.Windows.Forms.Padding(4);
+            this.btnBinario.Name = "btnBinario";
+            this.btnBinario.Size = new System.Drawing.Size(100, 28);
+            this.btnBinario.TabIndex = 7;
+            this.btnBinario.Text = "Binario";
+            this.btnBinario.UseVisualStyleBackColor = true;
+            this.btnBinario.Click += new System.EventHandler(this.btnDecimal_Click);
+            // 
+            // btnHexadecimal
+            // 
+            this.btnHexadecimal.Location = new System.Drawing.Point(417, 15);
+            this.btnHexadecimal.Margin = new System.Windows.Forms.Padding(4);
+            this.btnHexadecimal.Name = "btnHexadecimal";
+            this.btnHexadecimal.Size = new System.Drawing.Size(100, 28);
+            this.btnHexadecimal.TabIndex = 8;
+            this.btnHexadecimal.Text = "Hexadecimal";
+            this.btnHexadecimal.UseVisualStyleBackColor = true;
+            this.btnHexadecimal.Click += new System.EventHandler(this.btnHexadecimal_Click);
+            // 
             // FormularioDecimal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(502, 598);
+            this.ClientSize = new System.Drawing.Size(530, 598);
+            this.Controls.Add(this.btnHexadecimal);
+            this.Controls.Add(this.btnBinario);
             this.Controls.Add(this.lblPasos);
-            this.Controls.Add(this.btnConvertir);
+            this.Controls.Add(this.btnOctal);
             this.Controls.Add(this.lblHexadecimalResul);
             this.Controls.Add(this.lblOctalResul);
             this.Controls.Add(this.lblBinarioResul);
@@ -116,8 +142,10 @@
         private System.Windows.Forms.Label lblBinarioResul;
         private System.Windows.Forms.Label lblOctalResul;
         private System.Windows.Forms.Label lblHexadecimalResul;
-        private System.Windows.Forms.Button btnConvertir;
+        private System.Windows.Forms.Button btnOctal;
         private System.Windows.Forms.Label lblPasos;
+        private System.Windows.Forms.Button btnBinario;
+        private System.Windows.Forms.Button btnHexadecimal;
     }
 }
 

@@ -27,17 +27,17 @@ namespace TransformarNumerosV2
             try
             {
                 // Convertir a decimal y obtener los pasos
-                int decimalResult = convertidor.ConvertirADecimal(numeroOctal, out List<string> pasosDecimal);
+                
                 string binarioResult = convertidor.ConvertirABinario(numeroOctal, out List<string> pasosBinario);
                 string hexadecimalResult = convertidor.ConvertirAHexadecimal(numeroOctal, out List<string> pasosHexadecimal);
 
                 // Mostrar resultados en los labels
-                lblDecimalResul.Text = $"Decimal: {decimalResult}";
+                
                 lblBinarioResul.Text = $"Binario: {binarioResult}";
                 lblHexadecimalResul.Text = $"Hexadecimal: {hexadecimalResult}";
 
                 // Mostrar pasos en un TextBox
-                MostrarPasos(pasosDecimal, pasosBinario, pasosHexadecimal);
+                //MostrarPasos(pasosDecimal, pasosBinario, pasosHexadecimal);
             }
             catch (ArgumentException ex)
             {
@@ -70,6 +70,15 @@ namespace TransformarNumerosV2
 
             // Mostrar los pasos en el TextBox
             lblPasos.Text = textoPasos;
+
+        }
+
+        private void btnDecimal_Click(object sender, EventArgs e)
+        {
+            string numeroOctal = txtNumeroOctal.Text;
+            ConversorOctal convertidor = new ConversorOctal();
+            int decimalResult = convertidor.ConvertirADecimal(numeroOctal, out List<string> pasosDecimal);
+            lblDecimalResul.Text = $"Decimal: {decimalResult}";
 
         }
     }

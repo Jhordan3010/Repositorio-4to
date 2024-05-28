@@ -23,24 +23,45 @@ namespace TransformarNumerosV2
         {
             if (int.TryParse(txtNumeroDecimal.Text, out int decimalNumber))
             {
-                string binary = converter.ConvertToBinary(decimalNumber);
+                string numeroDecimal = txtNumeroDecimal.Text;
+                ConversorHexadecimal convertidor = new ConversorHexadecimal();
+
                 string octal = converter.ConvertToOctal(decimalNumber);
-                string hexadecimal = converter.ConvertToHexadecimal(decimalNumber);
+                
 
-                lblBinarioResul.Text = $"Binario: {binary}";
+                
                 lblOctalResul.Text = $"Octal: {octal}";
-                lblHexadecimalResul.Text = $"Hexadecimal: {hexadecimal}";
+                
+                string DecimalResult = convertidor.ConvertirABinario(numeroDecimal, out List<string> pasosOctal);
 
-                string binarySteps = converter.PrintConversionSteps(decimalNumber, 2);
-                string octalSteps = converter.PrintConversionSteps(decimalNumber, 8);
+
+                
+
+
+                lblPasos.Text += string.Join("\r\n", pasosOctal);
+            }
+            
+        }
+
+        private void btnDecimal_Click(object sender, EventArgs e)
+        {
+            string numeroDecimal = txtNumeroDecimal.Text;
+            ConversorHexadecimal convertidor = new ConversorHexadecimal();
+            string DecimalResult = convertidor.ConvertirABinario(numeroDecimal, out List<string> pasosBinario);
+            lblBinarioResul.Text = $"Binario: {DecimalResult}";
+            lblPasos.Text += string.Join("\r\n", pasosBinario);
+        }
+
+        private void btnHexadecimal_Click(object sender, EventArgs e)
+        {
+            if (int.TryParse(txtNumeroDecimal.Text, out int decimalNumber))
+            {
+                string hexadecimal = converter.ConvertToHexadecimal(decimalNumber);
+                lblHexadecimalResul.Text = $"Hexadecimal: {hexadecimal}";
                 string hexSteps = converter.PrintConversionSteps(decimalNumber, 16, "0123456789ABCDEF");
 
-                lblPasos.Text = $"Pasos para Binario:{Environment.NewLine}{binarySteps}{Environment.NewLine}{Environment.NewLine}{octalSteps}{Environment.NewLine}{Environment.NewLine}{hexSteps}";
-            
-            }
-            else
-            {
-                MessageBox.Show("Ingrese un número decimal válido.", "Entrada no válida", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                
             }
         }
     }
