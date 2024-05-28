@@ -53,7 +53,11 @@ UNICAST, MULTICAST, ANYCAST
 		Los mensajes de solicitud de router (RS ) son enviados por dispositivos host para descubrir router IPv6.
 		Los router envían mensajes de anuncio de router para información a lo host  sobre como obtener un gua Ipv6 y proporcionar util de red
 		-EL RA puede proporcionar tres métodos para configurar un Gua  IPv6:
-			SLAAC
-			SLAAC con servidor DHCPv6 stateless
-			Stateful DHPv6(no SLAAC)
-		
+			- SLAAC
+			- SLAAC con servidor DHCPv6 stateless
+			- Stateful DHPv6(no SLAAC)
+	**Proceso EUI-64**
+		El IEEE define el identificador unico extendido o el proceso eui-64 modificando que realiza lo siguiente:
+			- Un valor de 16 bits de fffe se inserta en el centro de la dirección MaAC Ethernet de 48 bits del cliente.
+			- El 7° bit de la dirección MAC del cliente se invierte del binario 0 al 1.
+			
