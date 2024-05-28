@@ -55,4 +55,5 @@ UNICAST, MULTICAST, ANYCAST
 		-EL RA puede proporcionar tres métodos para configurar un Gua  IPv6:
 			SLAAC
 			SLAAC con servidor DHCPv6 stateless
-			stateful DHPv6(no SLAAC)
+			Stateful DHPv6(no SLAAC)
+		
