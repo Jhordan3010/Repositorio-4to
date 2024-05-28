@@ -21,27 +21,10 @@ namespace TransformarNumerosV2
         {
             string numeroHexadecimal = txtNumeroHexadecimal.Text;
             ConversorHexadecimal convertidor = new ConversorHexadecimal();
-
-            try
-            {
-                
-                
-                string binarioResult = convertidor.ConvertirABinario(numeroHexadecimal, out List<string> pasosBinario);
-
-                
-                
-                lblBinario.Text = $"Binario: {binarioResult}";
-
-                
-
-                
-
-                lblPasos.Text += string.Join("\r\n", pasosBinario);
-            }
-            catch (ArgumentException ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            string binarioResult = convertidor.ConvertirABinario(numeroHexadecimal, out List<string> pasosBinario);  
+            lblBinario.Text = $"Binario: {binarioResult}";
+            lblPasos.Text += string.Join("\r\n", pasosBinario);
+            
         }
 
         private void btnOctal_Click(object sender, EventArgs e)

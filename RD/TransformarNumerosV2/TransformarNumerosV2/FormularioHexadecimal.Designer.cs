@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.lblPasos = new System.Windows.Forms.Label();
-            this.btnConvertir = new System.Windows.Forms.Button();
+            this.btnBinario = new System.Windows.Forms.Button();
             this.txtNumeroHexadecimal = new System.Windows.Forms.TextBox();
             this.lblDecimal = new System.Windows.Forms.Label();
             this.lblOctal = new System.Windows.Forms.Label();
@@ -46,16 +46,16 @@
             this.lblPasos.Size = new System.Drawing.Size(0, 16);
             this.lblPasos.TabIndex = 12;
             // 
-            // btnConvertir
+            // btnBinario
             // 
-            this.btnConvertir.Location = new System.Drawing.Point(170, 10);
-            this.btnConvertir.Margin = new System.Windows.Forms.Padding(4);
-            this.btnConvertir.Name = "btnConvertir";
-            this.btnConvertir.Size = new System.Drawing.Size(100, 28);
-            this.btnConvertir.TabIndex = 11;
-            this.btnConvertir.Text = "Convertir";
-            this.btnConvertir.UseVisualStyleBackColor = true;
-            this.btnConvertir.Click += new System.EventHandler(this.btnConvertir_Click);
+            this.btnBinario.Location = new System.Drawing.Point(170, 10);
+            this.btnBinario.Margin = new System.Windows.Forms.Padding(4);
+            this.btnBinario.Name = "btnBinario";
+            this.btnBinario.Size = new System.Drawing.Size(100, 28);
+            this.btnBinario.TabIndex = 11;
+            this.btnBinario.Text = "Binario";
+            this.btnBinario.UseVisualStyleBackColor = true;
+            this.btnBinario.Click += new System.EventHandler(this.btnConvertir_Click);
             // 
             // txtNumeroHexadecimal
             // 
@@ -122,7 +122,7 @@
             this.Controls.Add(this.lblOctal);
             this.Controls.Add(this.lblDecimal);
             this.Controls.Add(this.lblPasos);
-            this.Controls.Add(this.btnConvertir);
+            this.Controls.Add(this.btnBinario);
             this.Controls.Add(this.txtNumeroHexadecimal);
             this.Name = "FormularioHexadecimal";
             this.Text = "FormularioHexadecimal";
@@ -134,7 +134,7 @@
         #endregion
 
         private System.Windows.Forms.Label lblPasos;
-        private System.Windows.Forms.Button btnConvertir;
+        private System.Windows.Forms.Button btnBinario;
         private System.Windows.Forms.TextBox txtNumeroHexadecimal;
         private System.Windows.Forms.Label lblDecimal;
         private System.Windows.Forms.Label lblOctal;

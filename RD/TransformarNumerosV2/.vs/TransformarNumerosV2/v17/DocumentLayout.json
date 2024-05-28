@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B6B0F035-E9B3-4E1F-AC0B-73493440A956}|TransformarNumerosV2\\TransformarNumerosV2.csproj|c:\\users\\jhord\\onedrive\\escritorio\\cuarto semestre\\repsositorios\\repositorio-4to\\rd\\transformarnumerosv2\\transformarnumerosv2\\formulariobinario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B6B0F035-E9B3-4E1F-AC0B-73493440A956}|TransformarNumerosV2\\TransformarNumerosV2.csproj|solutionrelative:transformarnumerosv2\\formulariobinario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B6B0F035-E9B3-4E1F-AC0B-73493440A956}|TransformarNumerosV2\\TransformarNumerosV2.csproj|C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\transformarnumerosv2\\formulariohexadecimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6B0F035-E9B3-4E1F-AC0B-73493440A956}|TransformarNumerosV2\\TransformarNumerosV2.csproj|solutionrelative:transformarnumerosv2\\formulariohexadecimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -38,11 +42,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "FormularioBinario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\TransformarNumerosV2\\FormularioBinario.cs",
+              "RelativeDocumentMoniker": "TransformarNumerosV2\\FormularioBinario.cs",
+              "ToolTip": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\TransformarNumerosV2\\FormularioBinario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TransformarNumerosV2\\FormularioBinario.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T01:32:34.956Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "FormularioHexadecimal.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\TransformarNumerosV2\\FormularioHexadecimal.cs",
               "RelativeDocumentMoniker": "TransformarNumerosV2\\FormularioHexadecimal.cs",
@@ -54,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "FormInicial.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\TransformarNumerosV2\\FormInicial.cs",
               "RelativeDocumentMoniker": "TransformarNumerosV2\\FormInicial.cs",
@@ -66,7 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "FormularioHexadecimal.Designer.cs",
               "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\TransformarNumerosV2\\FormularioHexadecimal.Designer.cs",
               "RelativeDocumentMoniker": "TransformarNumerosV2\\FormularioHexadecimal.Designer.cs",
@@ -79,20 +95,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FormularioHexadecimal.cs",
               "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\TransformarNumerosV2\\FormularioHexadecimal.cs",
               "RelativeDocumentMoniker": "TransformarNumerosV2\\FormularioHexadecimal.cs",
               "ToolTip": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\TransformarNumerosV2\\FormularioHexadecimal.cs*",
               "RelativeToolTip": "TransformarNumerosV2\\FormularioHexadecimal.cs*",
-              "ViewState": "AQIAACAAAAAAAAAAAADwvyQAAAAQAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAwwBcAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T20:18:45.243Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ConversorHexadecimal.cs",
               "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\TransformarNumerosV2\\ConversorHexadecimal.cs",
               "RelativeDocumentMoniker": "TransformarNumerosV2\\ConversorHexadecimal.cs",
@@ -109,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "FormInicial.cs",
               "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\TransformarNumerosV2\\FormInicial.cs",
               "RelativeDocumentMoniker": "TransformarNumerosV2\\FormInicial.cs",
@@ -122,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "FormularioBinario.cs",
               "DocumentMoniker": "C:\\Users\\jhord\\OneDrive\\Escritorio\\Cuarto Semestre\\Repsositorios\\Repositorio-4to\\RD\\TransformarNumerosV2\\TransformarNumerosV2\\FormularioBinario.cs",
               "RelativeDocumentMoniker": "TransformarNumerosV2\\FormularioBinario.cs",
@@ -130,7 +146,8 @@
               "RelativeToolTip": "TransformarNumerosV2\\FormularioBinario.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAAACMAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T19:37:07.658Z"
+              "WhenOpened": "2024-05-22T19:37:07.658Z",
+              "EditorCaption": ""
             }
           ]
         }
