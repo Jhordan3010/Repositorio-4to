@@ -20,4 +20,4 @@
 		- **Confiabilidad:** grado en que el instrumento produce resultados consistentes y coherentes. Se refiere al grado en que su aplicación repetida al mismo individuo produce resultados iguales/similares.
 		- Para medir la confiabilidad se puede utilizar el **Alfa de Cronbach** (1951), el cual mide la consistencia interna del instrumento.
 		- Para medir la validez(estructura) se puede utilizar un **análisis factorial** (exploratorio/ confirmatorio) para muestras > 50. También para la valides de contenido se puede hacer una **revisión por expertos** en el tema de estudio. Para esto se puede usar/diseñar algún instrumento de validación.
-		
+	**Nota:** No hay que tener preguntas invertidas.
