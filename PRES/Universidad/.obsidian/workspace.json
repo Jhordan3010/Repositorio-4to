@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estadistica/Sin título.md",
+                "file": "Diseño/Bancos de germoplasma in vitro.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Estadistica/Sin título.md",
+                "file": "Diseño/Bancos de germoplasma in vitro.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Estadistica/Sin título.md",
+                "file": "Diseño/Bancos de germoplasma in vitro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estadistica/Sin título.md"
+                "file": "Diseño/Bancos de germoplasma in vitro.md"
               }
             }
           },
@@ -178,10 +178,10 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "74946190f381a3f3",
+  "active": "681a9d7f48feef1d",
   "lastOpenFiles": [
-    "Diseño/Bancos de germoplasma in vitro.md",
     "Estadistica/Sin título.md",
+    "Diseño/Bancos de germoplasma in vitro.md",
     "RDD/VLSM-IPv6.md",
     "Estadistica/Capitulo 4.md",
     "Estadistica/Capitulo 3.md",
