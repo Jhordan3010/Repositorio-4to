@@ -15,4 +15,5 @@ Usabilidad
 UX
 UI
 IA
-IxD -> Diseño de la interacción. 
+IxD -> Diseño de la interacción.
+
