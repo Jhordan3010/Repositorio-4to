@@ -61,7 +61,7 @@ UNICAST, MULTICAST, ANYCAST
 			- Un valor de 16 bits de fffe se inserta en el centro de la dirección MaAC Ethernet de 48 bits del cliente.
 			- El 7° bit de la dirección MAC del cliente se invierte del binario 0 al 1.
 **3.- Direccionamiento IPv6**
-	**División de subredes **
+	**División de subredes***
 		División en subredes mediante la ID de subred**
 		Ipv6  se diseño teniendo en cuneta las subredes.
 	**Ejemplo de Subneteo IPv6**
