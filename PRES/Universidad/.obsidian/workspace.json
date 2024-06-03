@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RDD/VLSM-IPv6.md",
+                "file": "Diseño/Bancos de germoplasma in vitro.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RDD/VLSM-IPv6.md",
+                "file": "Diseño/Bancos de germoplasma in vitro.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RDD/VLSM-IPv6.md",
+                "file": "Diseño/Bancos de germoplasma in vitro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RDD/VLSM-IPv6.md"
+                "file": "Diseño/Bancos de germoplasma in vitro.md"
               }
             }
           },
@@ -180,10 +180,10 @@
   },
   "active": "681a9d7f48feef1d",
   "lastOpenFiles": [
+    "RDD/VLSM-IPv6.md",
     "Estadistica/Capitulo 4.md",
     "Diseño/Bancos de germoplasma in vitro.md",
     "Estadistica/Sin título.md",
-    "RDD/VLSM-IPv6.md",
     "Estadistica/Capitulo 3.md",
     "Imagenes/Subneteo Ipv6.png",
     "Estadistica/Capitulo 2.md",
