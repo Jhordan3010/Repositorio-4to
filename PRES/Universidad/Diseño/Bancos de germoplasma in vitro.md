@@ -17,3 +17,4 @@ UI
 IA
 IxD -> Diseño de la interacción.
 
+onvordei -> experiencia del proyecto, proceso,
