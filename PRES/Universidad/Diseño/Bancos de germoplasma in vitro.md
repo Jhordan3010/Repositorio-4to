@@ -12,7 +12,7 @@ son instalaciones dedicadas a la recolección, conservación y manejo de materia
 
 
 Usabilidad
-UX
+UX -> experiencia de usuario.
 UI
 IA
 IxD -> Diseño de la interacción.
