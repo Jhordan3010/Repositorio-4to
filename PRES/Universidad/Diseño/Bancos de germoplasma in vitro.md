@@ -13,7 +13,7 @@ son instalaciones dedicadas a la recolección, conservación y manejo de materia
 
 Usabilidad
 UX -> experiencia de usuario. Se busca se sean, positivas 
-UI
+UI -> interfaz de usuario
 IA
 IxD -> Diseño de la interacción.
 
