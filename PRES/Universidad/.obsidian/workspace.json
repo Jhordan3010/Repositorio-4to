@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "63330ce02bfb0172",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RDD/REDES DE DATOS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RDD/VLSM-IPv6.md",
+                "file": "RDD/REDES DE DATOS.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RDD/VLSM-IPv6.md",
+                "file": "RDD/REDES DE DATOS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RDD/VLSM-IPv6.md"
+                "file": "RDD/REDES DE DATOS.md"
               }
             }
           },
@@ -155,17 +168,19 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "1cb503267d0660b7",
+  "active": "63330ce02bfb0172",
   "lastOpenFiles": [
+    "RDD/VLSM-IPv6.md",
+    "RDD/REDES DE DATOS.md",
+    "2024-06-04.md",
+    "Sin título.canvas",
     "Diseño/Bancos de germoplasma in vitro.md",
     "Estadistica/Capitulo 4.md",
     "Estadistica/Capitulo 3.md",
     "Estadistica/Capitulo 2.md",
-    "RDD/VLSM-IPv6.md",
     "Imagenes/Pasted Image 20240515102444_970.jpg",
     "Estadistica/Sin título.md",
     "Imagenes/Subneteo Ipv6.png",
-    "Sin título.canvas",
     "Sin título 1.canvas",
     "BD/Drawing 2024-05-27 07.52.50.excalidraw.md",
     "Diseño/Drawing 2024-05-20 11.06.52.excalidraw.md",
