@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "09e216a79daa4431",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BD/CONSULTAS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RDD/REDES DE DATOS.md",
+                "file": "BD/CONSULTAS.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RDD/REDES DE DATOS.md",
+                "file": "BD/CONSULTAS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RDD/REDES DE DATOS.md"
+                "file": "BD/CONSULTAS.md"
               }
             }
           },
@@ -168,10 +180,11 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "63330ce02bfb0172",
+  "active": "09e216a79daa4431",
   "lastOpenFiles": [
-    "RDD/VLSM-IPv6.md",
     "RDD/REDES DE DATOS.md",
+    "BD/CONSULTAS.md",
+    "RDD/VLSM-IPv6.md",
     "2024-06-04.md",
     "Sin título.canvas",
     "Diseño/Bancos de germoplasma in vitro.md",
