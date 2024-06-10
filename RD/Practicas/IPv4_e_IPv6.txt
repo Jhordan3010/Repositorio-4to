@@ -1,0 +1,447 @@
+!***********
+!* ROUTER 1
+!***********
+
+enable
+configure terminal
+hostname R1
+ipv6 unicast-routing
+
+interface g0/0
+	description Enlace a LAN1
+	ip address 192.168.10.1 255.255.255.0
+	ipv6 address 2001:db8:acad:10::1/64
+	ipv6 address fe80::1:1 link-local
+	no shutdown
+	exit
+
+interface g0/1
+	description Enlace a LAN2
+	ip address 192.168.20.1 255.255.255.0
+	ipv6 address 2001:db8:acad:20::1/64
+	ipv6 address fe80::2:1 link-local
+	no shutdown
+	exit
+
+interface g0/2
+	description Enlace a LAN3
+	ip address 172.16.0.1 255.255.0.0
+	ipv6 address 2001:db8:cafe:16::1/64
+	ipv6 address fe80::3:1 link-local
+	no shutdown
+	exit
+
+interface s0/1/0
+	description WAN a R2
+	ip address 192.168.110.1 255.255.255.252
+	ipv6 address 2001:db8:acad:110::1/64
+	no shutdown
+	exit
+
+interface s0/1/1
+	description WAN a R3
+	ip address 192.168.110.9 255.255.255.252
+	ipv6 address 2001:db8:acad:130::1/64
+	no shutdown
+	exit
+
+end
+wr
+
+! Reglas de ruteo IPv4
+! Rutas R2 PARA LAN4 LAN5 LAN6
+configure terminal 
+ip route 192.168.30.0 255.255.255.0   192.168.110.2 100
+ip route 192.168.40.0 255.255.255.0   192.168.110.2 100
+ip route 172.17.0.0   255.255.0.0     192.168.110.2 100
+
+! Rutas R3 PARA LAN4 LAN5 LAN6 
+ip route 192.168.30.0 255.255.255.0   192.168.110.10 120
+ip route 192.168.40.0 255.255.255.0   192.168.110.10 120
+ip route 172.17.0.0   255.255.0.0     192.168.110.10 120
+
+
+! Rutas R3 PARA LAN7 LAN8 LAN9
+ip route 172.18.0.0   255.255.0.0     192.168.110.10 100
+ip route 172.19.0.0   255.255.0.0     192.168.110.10 100
+ip route 192.168.50.0 255.255.255.0   192.168.110.10 100
+
+! Rutas R2 PARA LAN7 LAN8 LAN9
+ip route 172.18.0.0   255.255.0.0     192.168.110.2 120
+ip route 172.19.0.0   255.255.0.0     192.168.110.2 120
+ip route 192.168.50.0 255.255.255.0   192.168.110.2 120
+
+! Rutas R2 para LAN10
+ip route 192.168.60.0   255.255.255.0   192.168.110.2 100
+
+! Rutas R3 para LAN10
+ip route 192.168.60.0   255.255.255.0   192.168.110.10 120
+
+
+! Reglas de ruteo IPv6
+! Rutas R2 PARA LAN4 LAN5 LAN6
+ipv6 route 2001:db8:acad:30::/64 2001:db8:acad:110::2 100
+ipv6 route 2001:db8:acad:40::/64 2001:db8:acad:110::2 100
+ipv6 route 2001:db8:cafe:17::/64 2001:db8:acad:110::2 100
+
+! Rutas R3 PARA LAN4 LAN5 LAN6 
+ipv6 route 2001:db8:acad:30::/64 2001:db8:acad:130::2 120
+ipv6 route 2001:db8:acad:40::/64 2001:db8:acad:130::2 120
+ipv6 route 2001:db8:cafe:17::/64 2001:db8:acad:130::2 120
+
+
+! Rutas R3 PARA LAN7 LAN8 LAN9
+ipv6 route 2001:db8:cafe:18::/64 2001:db8:acad:130::2 100
+ipv6 route 2001:db8:cafe:19::/64 2001:db8:acad:130::2 100
+ipv6 route 2001:db8:acad:50::/64 2001:db8:acad:130::2 100
+
+! Rutas R2 PARA LAN7 LAN8 LAN9
+ipv6 route 2001:db8:acad:30::/64 2001:db8:acad:110::2 120
+ipv6 route 2001:db8:acad:40::/64 2001:db8:acad:110::2 120
+ipv6 route 2001:db8:cafe:17::/64 2001:db8:acad:110::2 120
+
+! Rutas R2 para LAN10
+ipv6 route 2001:db8:acad:60::/64  2001:db8:acad:120::2 100
+
+! Rutas R3 para LAN10
+ipv6 route 2001:db8:acad:60::/64  2001:db8:acad:130::2 120
+
+
+
+
+
+
+!***********
+!* ROUTER 2
+!***********
+
+enable
+configure terminal
+hostname R2
+ipv6 unicast-routing
+
+interface g0/0/0
+	description Enlace a LAN4
+	ip address 192.168.30.1 255.255.255.0
+	ipv6 address 2001:db8:acad:30::1/64
+	ipv6 address fe80::4:1 link-local
+	no shutdown
+	exit
+
+interface g0/0/1
+	description Enlace a LAN5
+	ip address 192.168.40.1 255.255.255.0
+	ipv6 address 2001:db8:acad:40::1/64
+	ipv6 address fe80::5:1 link-local
+	no shutdown
+	exit
+
+interface g0/0/2
+	description Enlace a LAN6
+	ip address 172.17.0.1 255.255.0.0
+	ipv6 address 2001:db8:cafe:17::1/64
+	ipv6 address fe80::6:1 link-local
+	no shutdown
+	exit
+
+interface s0/1/0
+	description WAN a R1
+	ip address 192.168.110.2 255.255.255.252
+	ipv6 address 2001:db8:acad:110::2/64
+	no shutdown
+	exit
+
+interface s0/1/1
+	description WAN a R3
+	ip address 192.168.110.5 255.255.255.252
+	ipv6 address 2001:db8:acad:120::1/64
+	no shutdown
+	exit
+
+interface s0/2/0
+	description WAN a R4
+	ip address 192.168.110.17 255.255.255.252
+	ipv6 address 2001:db8:acad:150::1/64
+	no shutdown
+	exit
+
+end
+wr
+
+! Reglas de ruteo IPv4
+! Rutas R1 PARA LAN1 LAN2 LAN3
+configure terminal 
+ip route 192.168.10.0 255.255.255.0   192.168.110.1 100
+ip route 192.168.20.0 255.255.255.0   192.168.110.1 100
+ip route 172.16.0.0   255.255.0.0     192.168.110.1 100
+
+! Rutas R3 PARA LAN1 LAN2 LAN3 
+ip route 192.168.10.0 255.255.255.0   192.168.110.6 120
+ip route 192.168.20.0 255.255.255.0   192.168.110.6 120
+ip route 172.16.0.0   255.255.0.0     192.168.110.6 120
+
+
+! Rutas R3 PARA LAN7 LAN8 LAN9
+ip route 172.18.0.0   255.255.0.0     192.168.110.6 100
+ip route 172.19.0.0   255.255.0.0     192.168.110.6 100
+ip route 192.168.50.0 255.255.255.0   192.168.110.6 100
+
+! Rutas R1 PARA LAN7 LAN8 LAN9
+ip route 172.18.0.0   255.255.0.0     192.168.110.1 120
+ip route 172.19.0.0   255.255.0.0     192.168.110.1 120
+ip route 192.168.50.0 255.255.255.0   192.168.110.1 120
+
+! Rutas R1 para LAN10
+ip route 192.168.60.0 255.255.255.0 192.168.110.1 140
+
+! Rutas R4 para LAN10
+ip route 192.168.60.0 255.255.255.0 192.168.110.18 100
+
+! Rutas R3 para LAN10
+ip route 192.168.60.0 255.255.255.0 192.168.110.6 120
+
+
+! Reglas de ruteo IPv6
+! Rutas R1 PARA LAN1 LAN2 LAN3
+ipv6 route 2001:db8:acad:10::/64 2001:db8:acad:110::1 100
+ipv6 route 2001:db8:acad:20::/64 2001:db8:acad:110::1 100
+ipv6 route 2001:db8:cafe:16::/64 2001:db8:acad:110::1 100
+
+! Rutas R3 PARA LAN1 LAN2 LAN3 
+ipv6 route 2001:db8:acad:10::/64 2001:db8:acad:120::2 120
+ipv6 route 2001:db8:acad:20::/64 2001:db8:acad:120::2 120
+ipv6 route 2001:db8:cafe:16::/64 2001:db8:acad:120::2 120
+
+
+! Rutas R3 PARA LAN7 LAN8 LAN9
+ipv6 route 2001:db8:cafe:18::/64 2001:db8:acad:120::2 100
+ipv6 route 2001:db8:cafe:19::/64 2001:db8:acad:120::2 100
+ipv6 route 2001:db8:acad:50::/64 2001:db8:acad:120::2 100
+
+! Rutas R1 PARA LAN7 LAN8 LAN9
+ipv6 route 2001:db8:cafe:18::/64 2001:db8:acad:110::1 120
+ipv6 route 2001:db8:cafe:19::/64 2001:db8:acad:110::1 120
+ipv6 route 2001:db8:acad:50::/64 2001:db8:acad:110::1 120
+
+! Rutas R1 para LAN10
+ipv6 route 2001:db8:acad:60::/64 2001:db8:acad:110::1 140
+
+! Rutas R4 para LAN10
+ipv6 route 2001:db8:acad:60::/64 2001:db8:acad:150::2 100
+
+! Rutas R3 para LAN10
+ipv6 route 2001:db8:acad:60::/64 2001:db8:acad:120::2 120
+
+
+
+
+!***********
+!* ROUTER 3
+!***********
+
+enable
+configure terminal
+hostname R3
+ipv6 unicast-routing
+
+interface g0/0/0
+	description Enlace a LAN7
+	ip address 172.18.0.1 255.255.0.0
+	ipv6 address 2001:db8:cafe:18::1/64
+	ipv6 address fe80::7:1 link-local
+	no shutdown
+	exit
+
+interface g0/0/1
+	description Enlace a LAN8
+	ip address 172.19.0.1 255.255.0.0
+	ipv6 address 2001:db8:cafe:19::1/64
+	ipv6 address fe80::8:1 link-local
+	no shutdown
+	exit
+
+interface g0/0/2
+	description Enlace a LAN9
+	ip address 192.168.50.1 255.255.255.0
+	ipv6 address 2001:db8:acad:50::1/64
+	ipv6 address fe80::9:1 link-local
+	no shutdown
+	exit
+
+interface s0/1/0
+	description WAN a R1
+	ip address 192.168.110.10 255.255.255.252
+	ipv6 address 2001:db8:acad:130::2/64
+	no shutdown
+	exit
+
+interface s0/1/1
+	description WAN a R2
+	ip address 192.168.110.6 255.255.255.252
+	ipv6 address 2001:db8:acad:120::2/64
+	no shutdown
+	exit
+
+interface s0/2/1
+	description WAN a R4
+	ip address 192.168.110.13 255.255.255.252
+	ipv6 address 2001:db8:acad:140::1/64 
+	no shutdown
+	exit
+
+end
+wr
+
+! Reglas de ruteo IPv4
+! Rutas R1 PARA LAN1 LAN2 LAN3
+configure terminal 
+ip route 192.168.10.0 255.255.255.0   192.168.110.9 100
+ip route 192.168.20.0 255.255.255.0   192.168.110.9 100
+ip route 172.16.0.0   255.255.0.0     192.168.110.9 100
+
+! Rutas R2 PARA LAN1 LAN2 LAN3 
+ip route 192.168.10.0 255.255.255.0   192.168.110.5 120
+ip route 192.168.20.0 255.255.255.0   192.168.110.5 120
+ip route 172.16.0.0   255.255.0.0     192.168.110.5 120
+
+
+! Rutas R2 PARA LAN4 LAN5 LAN6
+ip route 192.168.30.0   255.255.255.0     192.168.110.5 100
+ip route 192.168.40.0   255.255.255.0     192.168.110.5 100
+ip route 172.17.0.0     255.255.0.0       192.168.110.5 100
+
+! Rutas R1 PARA LAN4 LAN5 LAN6
+ip route 192.168.30.0   255.255.255.0     192.168.110.9 120
+ip route 192.168.40.0   255.255.255.0     192.168.110.9 120
+ip route 172.17.0.0     255.255.0.0       192.168.110.9 120
+
+! Rutas R1 para LAN10
+ip route 192.168.60.0 255.255.255.0 192.168.110.9 140
+
+! Rutas R4 para LAN10
+ip route 192.168.60.0 255.255.255.0 192.168.110.14 100
+
+! Rutas R2 para LAN10
+ip route 192.168.60.0 255.255.255.0 192.168.110.5 120
+
+
+! Reglas de ruteo IPv6
+! Rutas R1 PARA LAN1 LAN2 LAN3
+ipv6 route 2001:db8:acad:10::/64 2001:db8:acad:130::1 100
+ipv6 route 2001:db8:acad:20::/64 2001:db8:acad:130::1 100
+ipv6 route 2001:db8:cafe:16::/64 2001:db8:acad:130::1 100
+
+! Rutas R2 PARA LAN1 LAN2 LAN3 
+ipv6 route 2001:db8:acad:10::/64 2001:db8:acad:120::1 120
+ipv6 route 2001:db8:acad:20::/64 2001:db8:acad:120::1 120
+ipv6 route 2001:db8:cafe:16::/64 2001:db8:acad:120::1 120
+
+
+! Rutas R2 PARA LAN4 LAN5 LAN6
+ipv6 route 2001:db8:acad:30::/64 2001:db8:acad:120::1 100
+ipv6 route 2001:db8:acad:40::/64 2001:db8:acad:120::1 100
+ipv6 route 2001:db8:cafe:17::/64 2001:db8:acad:120::1 100
+
+! Rutas R1 PARA LAN4 LAN5 LAN6
+ipv6 route 2001:db8:acad:30::/64 2001:db8:acad:130::1 120
+ipv6 route 2001:db8:acad:40::/64 2001:db8:acad:130::1 120
+ipv6 route 2001:db8:acad:17::/64 2001:db8:acad:130::1 120
+
+! Rutas R1 para LAN10
+ipv6 route 2001:db8:acad:60::/64 2001:db8:acad:130::1 140
+
+! Rutas R4 para LAN10
+ipv6 route 2001:db8:acad:60::/64 2001:db8:acad:140::2 100
+
+! Rutas R2 para LAN10
+ipv6 route 2001:db8:acad:60::/64 2001:db8:acad:120::1 120
+
+
+
+!************
+!** ROUTER 4
+!************
+ enable 
+configure terminal
+hostname R4
+ipv6 unicast-routing
+
+interface g0/0/0
+	description Enlace a LAN10
+	ip address 192.168.60.1 255.255.255.0
+	ipv6 address 2001:db8:acad:60::1/64
+	ipv6 address fe80::10:1 link-local
+	no shutdown
+	exit
+
+interface s0/1/0
+	description WAN a ROUTER 2
+	ip address 192.168.110.18 255.255.255.252
+	ipv6 address 2001:db8:acad:150::2/64
+	no shutdown
+	exit
+
+interface s0/1/1
+	description WAN a ROUTER 3
+	ip address 192.168.110.14 255.255.255.252
+	ipv6 address 2001:db8:acad:140::2/64
+	no shutdown
+	exit
+
+end 
+wr
+
+
+configure terminal
+! Reglas de Ruteo R4 con IPv4
+! Rutas R2 para LAN4 LAN5 LAN6
+ip route 192.168.30.0   255.255.255.0     192.168.110.17 100
+ip route 192.168.40.0   255.255.255.0     192.168.110.17 100
+ip route 172.17.0.0     255.255.0.0       192.168.110.17 100 
+! Rutas R3 para LAN4 LAN5 LAN6
+ip route 192.168.30.0   255.255.255.0     192.168.110.13 120
+ip route 192.168.40.0   255.255.255.0     192.168.110.13 120
+ip route 172.17.0.0     255.255.0.0       192.168.110.13 120 
+! Rutas R3 para LAN7 LAN8 LAN9
+ip route 172.18.0.0   255.255.0.0     192.168.110.13 100
+ip route 172.19.0.0   255.255.0.0     192.168.110.13 100
+ip route 192.168.50.0 255.255.255.0   192.168.110.13 100
+! Rutas R2 para LAN7 LAN8 LAN9
+ip route 172.18.0.0   255.255.0.0     192.168.110.17 120
+ip route 172.19.0.0   255.255.0.0     192.168.110.17 120
+ip route 192.168.50.0 255.255.255.0   192.168.110.17 120
+! Rutas R2 para LAN1 LAN2 LAN3
+ip route 192.168.10.0 255.255.255.0   192.168.110.17 100
+ip route 192.168.20.0 255.255.255.0   192.168.110.17 100
+ip route 172.16.0.0   255.255.0.0     192.168.110.17 100
+! Rutas R3 para LAN1 LAN2 LAN3
+ip route 192.168.10.0 255.255.255.0   192.168.110.13 120
+ip route 192.168.20.0 255.255.255.0   192.168.110.13 120
+ip route 172.16.0.0   255.255.0.0     192.168.110.13 120
+
+! Reglas de Ruteo R4 con IPv6
+! Rutas R2 para LAN4 LAN5 LAN6
+ipv6 route 2001:db8:acad:30::/64 2001:db8:acad:150::1 100
+ipv6 route 2001:db8:acad:40::/64 2001:db8:acad:150::1 100
+ipv6 route 2001:db8:cafe:17::/64 2001:db8:acad:150::1 100 
+! Rutas R3 para LAN4 LAN5 LAN6
+ipv6 route 2001:db8:acad:30::/64 2001:db8:acad:140::1 120
+ipv6 route 2001:db8:acad:40::/64 2001:db8:acad:140::1 120
+ipv6 route 2001:db8:cafe:17::/64 2001:db8:acad:140::1 120 
+! Rutas R3 para LAN7 LAN8 LAN9
+ipv6 route 2001:db8:acad:30::/64 2001:db8:acad:140::1 100
+ipv6 route 2001:db8:acad:40::/64 2001:db8:acad:140::1 100
+ipv6 route 2001:db8:cafe:17::/64 2001:db8:acad:140::1 100 
+! Rutas R2 para LAN7 LAN8 LAN9
+ipv6 route 2001:db8:acad:30::/64 2001:db8:acad:150::1 120
+ipv6 route 2001:db8:acad:40::/64 2001:db8:acad:150::1 120
+ipv6 route 2001:db8:cafe:17::/64 2001:db8:acad:150::1 120
+! Rutas R2 para LAN1 LAN2 LAN3
+ipv6 route 2001:db8:acad:10::/64 2001:db8:acad:150::1 120
+ipv6 route 2001:db8:acad:20::/64 2001:db8:acad:150::1 120
+ipv6 route 2001:db8:cafe:16::/64 2001:db8:acad:150::1 120 
+! Rutas R3 para LAN1 LAN2 LAN3
+ipv6 route 2001:db8:acad:10::/64 2001:db8:acad:140::1 120
+ipv6 route 2001:db8:acad:20::/64 2001:db8:acad:140::1 120
+ipv6 route 2001:db8:cafe:16::/64 2001:db8:acad:140::1 120 
+
