@@ -13,5 +13,6 @@
 					- Difusiones, multidifusión y unidifusión se aíslan en la VLAN individual
 					- Cada VLAN tendrá su propia gama única de direcciones IP
 					- Dominios de difusión mas pequeños.
-			- 
-			 
+		**Beneficios de un diseño de VLAN**
+			[[Beneificios de un diseño de VLAN.png]]
+		*
