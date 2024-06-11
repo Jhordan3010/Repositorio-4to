@@ -14,8 +14,8 @@
 					- Cada VLAN tendrá su propia gama única de direcciones IP
 					- Dominios de difusión mas pequeños.
 		**Beneficios de un diseño de VLAN**
-			[[Beneificios de un diseño de VLAN.png]]
-		**Tipos de VLAN(Cont)**
+			[[Beneficios de un diseño de VLAN.png]]
+		**Tipos de VLAN(Cont.)**
 			VLAN DE DATOS
 				- Dedicado al trafico generado por el usuario(correo electrónico y trafico web)
 			VLAN NATIVA
@@ -23,6 +23,6 @@
 				- Se requiere una VLAN separada por el trafico de voz requiere:
 					- Ancho de banda asegurado
 					- Alta prioridad de QoS
-					- Capacidad para evitar la ccongestion
+					- Capacidad para evitar la congestión
 					- Retraso menos de 150 ms desde el origen hasta el destino
 				- Toda la red debe estar diseñada para admitir voz
