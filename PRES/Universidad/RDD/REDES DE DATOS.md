@@ -15,4 +15,14 @@
 					- Dominios de difusión mas pequeños.
 		**Beneficios de un diseño de VLAN**
 			[[Beneificios de un diseño de VLAN.png]]
-		*
+		**Tipos de VLAN(Cont)**
+			VLAN DE DATOS
+				- Dedicado al trafico generado por el usuario(correo electrónico y trafico web)
+			VLAN NATIVA
+			VLAN  DE VOZ
+				- Se requiere una VLAN separada por el trafico de voz requiere:
+					- Ancho de banda asegurado
+					- Alta prioridad de QoS
+					- Capacidad para evitar la ccongestion
+					- Retraso menos de 150 ms desde el origen hasta el destino
+				- Toda la red debe estar diseñada para admitir voz
