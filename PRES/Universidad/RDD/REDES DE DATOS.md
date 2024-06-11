@@ -16,13 +16,15 @@
 		**Beneficios de un diseño de VLAN**
 			[[Beneficios de un diseño de VLAN.png]]
 		**Tipos de VLAN(Cont.)**
-			VLAN DE DATOS
+			**VLAN DE DATOS**
 				- Dedicado al trafico generado por el usuario(correo electrónico y trafico web)
-			VLAN NATIVA
-			VLAN  DE VOZ
+			**VLAN NATIVA**
+			**VLAN  DE VOZ**
 				- Se requiere una VLAN separada por el trafico de voz requiere:
 					- Ancho de banda asegurado
 					- Alta prioridad de QoS
 					- Capacidad para evitar la congestión
 					- Retraso menos de 150 ms desde el origen hasta el destino
 				- Toda la red debe estar diseñada para admitir voz
+	**Configuración de VLANS**
+		-Comandos de creación de VLAN
