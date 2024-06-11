@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RDD/REDES DE DATOS.md",
+                "file": "Cuarto Semestre/Estadistica/Capitulo 4.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RDD/REDES DE DATOS.md",
+                "file": "Cuarto Semestre/Estadistica/Capitulo 4.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,8 +102,8 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RDD/REDES DE DATOS.md",
-                "linksCollapsed": false,
+                "file": "Cuarto Semestre/Estadistica/Capitulo 4.md",
+                "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RDD/REDES DE DATOS.md"
+                "file": "Cuarto Semestre/Estadistica/Capitulo 4.md"
               }
             }
           },
@@ -137,7 +137,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -157,28 +158,32 @@
   },
   "active": "1cb503267d0660b7",
   "lastOpenFiles": [
-    "Imagenes/Pasted Image 20240515102444_970.jpg",
-    "RDD/REDES DE DATOS.md",
-    "Imagenes/Beneficios de un diseño de VLAN.png",
-    "Imagenes/Subneteo Ipv6.png",
-    "RDD/VLSM-IPv6.md",
-    "BD/CONSULTAS.md",
-    "2024-06-04.md",
+    "Cuarto Semestre/Estadistica/Capitulo 3.md",
+    "Cuarto Semestre/Estadistica/Capitulo 2.md",
+    "Cuarto Semestre/Estadistica/Capitulo 5.md",
+    "Cuarto Semestre/Estadistica/Capitulo 4.md",
+    "Cuarto Semestre/Estadistica/Cap-5 Pruebas Wilcoxon y t-student.pdf",
+    "Cuarto Semestre/RDD/REDES DE DATOS.md",
+    "Cuarto Semestre",
     "Sin título.canvas",
-    "Diseño/Bancos de germoplasma in vitro.md",
-    "Estadistica/Capitulo 4.md",
-    "Estadistica/Capitulo 3.md",
-    "Estadistica/Capitulo 2.md",
+    "Excalidraw/Drawing 2024-06-11 10.30.08.excalidraw.md",
+    "Excalidraw",
+    "Cuarto Semestre/Imagenes/Pasted Image 20240515102444_970.jpg",
+    "Cuarto Semestre/Imagenes/Beneficios de un diseño de VLAN.png",
+    "Cuarto Semestre/Imagenes/Subneteo Ipv6.png",
+    "Cuarto Semestre/RDD/VLSM-IPv6.md",
+    "Cuarto Semestre/BD/CONSULTAS.md",
+    "2024-06-04.md",
+    "Cuarto Semestre/Diseño/Bancos de germoplasma in vitro.md",
     "Estadistica/Sin título.md",
     "Sin título 1.canvas",
     "BD/Drawing 2024-05-27 07.52.50.excalidraw.md",
     "Diseño/Drawing 2024-05-20 11.06.52.excalidraw.md",
-    "Imagenes",
-    "RDD",
-    "Excalidraw",
-    "Estadistica",
-    "Diseño",
-    "BD",
+    "Cuarto Semestre/Imagenes",
+    "Cuarto Semestre/RDD",
+    "Cuarto Semestre/Estadistica",
+    "Cuarto Semestre/Diseño",
+    "Cuarto Semestre/BD",
     "2024-05-28.md"
   ]
 }
