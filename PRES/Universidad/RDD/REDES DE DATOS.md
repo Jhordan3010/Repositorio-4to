@@ -4,4 +4,3 @@
 	**Métodos de acceso**
 		- Secure shel (ssh)
 		-  Telnet
-	
