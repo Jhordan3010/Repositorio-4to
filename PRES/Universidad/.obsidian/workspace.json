@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cuarto Semestre/Estadistica/Capitulo 4.md",
+                "file": "Cuarto Semestre/RDD/REDES DE DATOS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cuarto Semestre/Estadistica/Capitulo 4.md",
+                "file": "Cuarto Semestre/RDD/REDES DE DATOS.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cuarto Semestre/Estadistica/Capitulo 4.md",
+                "file": "Cuarto Semestre/RDD/REDES DE DATOS.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cuarto Semestre/Estadistica/Capitulo 4.md"
+                "file": "Cuarto Semestre/RDD/REDES DE DATOS.md"
               }
             }
           },
@@ -158,10 +158,10 @@
   },
   "active": "1cb503267d0660b7",
   "lastOpenFiles": [
-    "Cuarto Semestre/Estadistica/Capitulo 3.md",
-    "Cuarto Semestre/Estadistica/Capitulo 2.md",
     "Cuarto Semestre/Estadistica/Capitulo 5.md",
     "Cuarto Semestre/Estadistica/Capitulo 4.md",
+    "Cuarto Semestre/Estadistica/Capitulo 3.md",
+    "Cuarto Semestre/Estadistica/Capitulo 2.md",
     "Cuarto Semestre/Estadistica/Cap-5 Pruebas Wilcoxon y t-student.pdf",
     "Cuarto Semestre/RDD/REDES DE DATOS.md",
     "Cuarto Semestre",
