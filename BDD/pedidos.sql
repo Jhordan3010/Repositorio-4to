@@ -235,3 +235,30 @@ alter table PEDIDOS
       references CLIENTES (CEDULACLI)
       on delete restrict on update restrict;
 
+SELECT 
+    e.nombresemp, 
+    e.apellidosemp, 
+    c.detallecar, 
+    COUNT(f.codigofac) AS cantidad_facturas
+FROM 
+    empleados AS e
+INNER JOIN 
+    cargos AS c ON e.idcar = c.idcar
+INNER JOIN 
+    facturas AS f ON e.cedulaemp = f.cedulaemp
+GROUP BY 
+    e.cedulaemp, e.nombresemp, e.apellidosemp, c.detallecar; SELECT e.nombresemp, e.apellidosemp, COUNT(h.cedulahij) AS numero_hijos_menores
+FROM empleados AS e
+LEFT JOIN hijos AS h ON e.cedulaemp = h.cedulaemp
+GROUP BY e.nombresemp, e.apellidosemp; SELECT e.nombresemp, e.apellidosemp, EXTRACT(MONTH FROM rp.fecharol) AS mes_pago
+FROM empleados AS e
+INNER JOIN roles AS rp ON e.cedulaemp = rp.cedulaemp
+GROUP BY e.cedulaemp, e.nombresemp, e.apellidosemp, EXTRACT(MONTH FROM rp.fecharol); SELECT e.nombresemp, e.apellidosemp, h.cedulahij, h.otros_datos  -- Replace 'otros_datos' with desired child information
+FROM empleados AS e
+LEFT JOIN hijos AS h ON e.cedulaemp = h.cedulaemp
+WHERE h.cedulahij IN (
+  SELECT h2.cedulahij
+  FROM hijos AS h2
+  WHERE h2.fecha_nacimiento > DATE_SUB(CURDATE(), INTERVAL 18 YEAR)  -- Adjust age limit as needed
+)
+GROUP BY e.nombresemp, e.apellidosemp, h.cedulahij, h.otros_datos;
