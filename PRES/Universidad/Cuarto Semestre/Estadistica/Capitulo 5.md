@@ -10,4 +10,5 @@
 **Prueba de hipótesis: paramétricas y no paramétricas.**
 -  **Las pruebas no paramétricas:** ausencia de asunciones acerca de la ley de probabilidad que sigue la pululación de la que ha sido extraída .
 - **Muestras relacionadas:** que los mismos sujetos sean evaluados antes y después.
+-
 
