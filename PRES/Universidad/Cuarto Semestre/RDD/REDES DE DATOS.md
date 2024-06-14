@@ -28,3 +28,24 @@
 				- Toda la red debe estar diseñada para admitir voz
 	**Configuración de VLANS**
 		-Comandos de creación de VLAN
+
+
+**Troncales VLAN**
+Comandos de configuración de VLAN
+
+| Tare                                                     | comando de IOS                          |
+| -------------------------------------------------------- | --------------------------------------- |
+| configuración global                                     | switch# configure terminal              |
+| Ingrese al modo de configuración de interface            | interface interface-id                  |
+| Habilitar el modo Trunk en un puerto                     | switchport mode trunk                   |
+| Configurar la VLAN nativa en un puerto Trunk (opcional)  | switchport trunk native vlan vlan-id    |
+| Permitir tráfico de VLANs específicas en un puerto Trunk | switchport trunk allowed vlan vlan-list |
+| vuelvo al modo exec                                      | end                                     |
+**Protocolo de enlace dinámico**
+El protocolo de enlace troncal dinámico (DTP) es un protocolo propietario de Cisco
+Las características de DTP son:
+- Activado de forma predeterminada en switches Catalyst 2960 y 2950
+- Dynamic-Auto es el valor predeterminado en los conmutadores 2960 y 2950
+
+Dynamic auto: se convierte en una interfaz troncal si la interfaz vecina se configura en modo troncal o deseable
+desirable: siempre es trocal por lo general 
