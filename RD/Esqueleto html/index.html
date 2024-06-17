@@ -4,30 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gestión de Subredes</title>
-    
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <h2>Gestión de Subredes</h2>
-        <form id="subnetForm">
+        <form id="formularioSubredes">
             <div class="form-group">
-                <label for="networkAddress">Dirección de Red:</label>
-                <input type="text" id="networkAddress" name="networkAddress" placeholder="192.168.23.0/24" required>
+                <label for="direccionRed">Dirección de Red:</label>
+                <input type="text" id="direccionRed" name="direccionRed" placeholder="192.168.23.0/24" required>
             </div>
             <div class="form-group">
-                <label for="subnetPrefix">Prefijo de Subred:</label>
-                <input type="number" id="subnetPrefix" name="subnetPrefix" min="0" max="32" placeholder="24" required>
+                <label for="prefijoSubred">Prefijo de Subred:</label>
+                <input type="number" id="prefijoSubred" name="prefijoSubred" min="0" max="32" placeholder="24" required>
             </div>
             <div class="form-group">
-                <label for="numberOfSubnets">Número de Subredes:</label>
-                <input type="number" id="numberOfSubnets" name="numberOfSubnets" min="1" placeholder="4" required>
+                <label for="numeroSubredes">Número de Subredes:</label>
+                <input type="number" id="numeroSubredes" name="numeroSubredes" min="1" placeholder="4" required>
             </div>
-            <button type="button" onclick="calculateSubnets()">Calcular Subredes</button>
+            <div id="contenedorEntradasHosts"></div>
+            <div class="form-buttons">
+                <button type="button" onclick="generarEntradasHosts()">Generar Cuadros de Hosts</button>
+                <button type="button" onclick="calcularSubredes()">Calcular Subredes</button>
+            </div>
         </form>
-        <div class="result" id="result">
+        <div class="result" id="resultado">
             <!-- Aquí se mostrarán los resultados -->
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
+
+
+
 
