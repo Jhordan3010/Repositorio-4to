@@ -43,7 +43,11 @@ function calcularSubredes() {
     const prefijoSubred = parseInt(document.getElementById('prefijoSubred').value);
     const numeroSubredes = parseInt(document.getElementById('numeroSubredes').value);
     const contenedorEntradasSubredes = document.getElementById('contenedorEntradasSubredes');
-    
+
+    // Limpiar tabla de resultados anterior
+    const tablaBody = document.getElementById('tablaBody');
+    tablaBody.innerHTML = '';
+
     let subredesInfo = [];
     for (let i = 0; i < numeroSubredes; i++) {
         const inputNombre = contenedorEntradasSubredes.querySelector(`input[name="nombreSubred${i + 1}"]`);
@@ -83,28 +87,48 @@ function calcularSubredes() {
             red: enteroAIp(redActualEntero),
             prefijo: mascaraSubred,
             primerHost: enteroAIp(redActualEntero + 1),
-            ultimoHost: enteroAIp(redActualEntero + tamañoRequerido - 2),
-            broadcast: enteroAIp(redActualEntero + tamañoRequerido - 1)
+            ultimoHost: enteroAIp((redActualEntero + tamañoRequerido) - 2),
+            broadcast: enteroAIp((redActualEntero + tamañoRequerido) - 1),
+            ultimaIp: enteroAIp((redActualEntero + tamañoRequerido) - 2) // Asumiendo que quieres mostrar la última IP
         };
+
         subredes.push(subred);
+
+        // Calcular la siguiente red a partir de la actual
         redActualEntero += tamañoRequerido;
     }
 
     // Mostrar los resultados en la tabla
-    const subnetsTableBody = document.getElementById('subnetsTableBody');
-    subnetsTableBody.innerHTML = '';
-
-    subredes.forEach((subred, index) => {
-        const row = document.createElement('tr');
-        row.innerHTML = `
-            <td>${index + 1}</td>
-            <td>${subred.nombre}</td>
-            <td>${subred.red}/${subred.prefijo}</td>
-            <td>${subred.primerHost} - ${subred.ultimoHost}</td>
-            <td>${subred.broadcast}</td>
-            <td>${subred.ultimoHost}</td>
-        `;
-        subnetsTableBody.appendChild(row);
-    });
+    mostrarResultados(subredes);
 }
 
+function mostrarResultados(subredes) {
+    const tablaBody = document.getElementById('tablaBody');
+
+    subredes.forEach(subred => {
+        const row = document.createElement('tr');
+
+        const nombreCell = document.createElement('td');
+        nombreCell.textContent = subred.nombre;
+
+        const direccionCell = document.createElement('td');
+        direccionCell.textContent = `${subred.red}/${subred.prefijo}`;
+
+        const rangoCell = document.createElement('td');
+        rangoCell.textContent = `${subred.primerHost} - ${subred.ultimoHost}`;
+
+        const broadcastCell = document.createElement('td');
+        broadcastCell.textContent = subred.broadcast;
+
+        const ultimaIpCell = document.createElement('td');
+        ultimaIpCell.textContent = subred.ultimaIp;
+
+        row.appendChild(nombreCell);
+        row.appendChild(direccionCell);
+        row.appendChild(rangoCell);
+        row.appendChild(broadcastCell);
+        row.appendChild(ultimaIpCell);
+
+        tablaBody.appendChild(row);
+    });
+}
