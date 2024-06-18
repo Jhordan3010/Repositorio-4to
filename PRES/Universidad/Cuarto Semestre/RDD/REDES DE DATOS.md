@@ -49,3 +49,7 @@ Las características de DTP son:
 
 Dynamic auto: se convierte en una interfaz troncal si la interfaz vecina se configura en modo troncal o deseable
 desirable: siempre es trocal por lo general 
+
+**Switching y Routing**(Funcionamiento de Inter-VLAN Routing)
+Se utiliz para segmentar las redes conmutadas de Capa 2 por diversas razones.
+Inter-VLA routing es el proceso de reenviar el trafico de red de una VLAN a otra VLAN.
