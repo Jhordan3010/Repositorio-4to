@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gestión de Subredes</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Incluir jsPDF desde CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
 </head>
 <body>
     <div class="container">
@@ -12,7 +14,7 @@
         <form id="formularioSubredes">
             <div class="form-group">
                 <label for="direccionRed">Dirección de Red:</label>
-                <input type="text" id="direccionRed" name="direccionRed" placeholder="192.168.0.0/24" required>
+                <input type="text" id="direccionRed" name="direccionRed" placeholder="192.168.23.0/24" required>
             </div>
             <div class="form-group">
                 <label for="prefijoSubred">Prefijo de Subred:</label>
@@ -28,17 +30,24 @@
                 <button type="button" onclick="calcularSubredes()">Calcular Subredes</button>
             </div>
         </form>
-        <div class="result" id="resultado">
-            <!-- Aquí se mostrarán los resultados -->
+        <div id="resultado" class="result">
+            <h3>Resultados</h3>
+            <table id="tablaSubredes">
+                <thead>
+                    <tr>
+                        <th>Nombre de Subred</th>
+                        <th>Dirección de Subred</th>
+                        <th>Rango de Hosts</th>
+                        <th>Dirección de Broadcast</th>
+                        <th>Última IP</th>
+                    </tr>
+                </thead>
+                <tbody id="tablaBody">
+                    <!-- Aquí se mostrarán los resultados -->
+                </tbody>
+            </table>
         </div>
     </div>
     <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
