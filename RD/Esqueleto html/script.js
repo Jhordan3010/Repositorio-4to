@@ -15,7 +15,7 @@ function generarEntradasSubredes() {
         
         const inputNombre = document.createElement('input');
         inputNombre.type = 'text';
-        inputNombre.name = `nombreSubred${i + 1}`;
+        inputNombre.id = `nombreSubred${i + 1}`;
         inputNombre.placeholder = `Ingrese el nombre de la subred ${i + 1}`;
         inputNombre.required = true;
         
@@ -25,7 +25,7 @@ function generarEntradasSubredes() {
         
         const inputHosts = document.createElement('input');
         inputHosts.type = 'number';
-        inputHosts.name = `hostsSubred${i + 1}`;
+        inputHosts.id = `hostsSubred${i + 1}`;
         inputHosts.placeholder = `Ingrese el número de hosts para la subred ${i + 1}`;
         inputHosts.required = true;
         
@@ -46,8 +46,8 @@ function calcularSubredes() {
     
     let subredesInfo = [];
     for (let i = 0; i < numeroSubredes; i++) {
-        const inputNombre = contenedorEntradasSubredes.querySelector(`input[name="nombreSubred${i + 1}"]`);
-        const inputHosts = contenedorEntradasSubredes.querySelector(`input[name="hostsSubred${i + 1}"]`);
+        const inputNombre = document.getElementById(`nombreSubred${i + 1}`);
+        const inputHosts = document.getElementById(`hostsSubred${i + 1}`);
         subredesInfo.push({
             nombre: inputNombre.value,
             hosts: parseInt(inputHosts.value, 10)
@@ -89,20 +89,19 @@ function calcularSubredes() {
         subredes.push(subred);
         redActualEntero += tamañoRequerido;
     }
-}
-   // Mostrar los resultados
-let resultadoHtml = '';
-subredes.forEach((subred, index) => {
-    resultadoHtml += `
-        <div class="subnet">
-            <h3>${subred.nombre} (Subred ${index + 1})</h3>
-            <p><strong>Dirección de Subred:</strong> ${subred.red}/${subred.prefijo}</p>
-            <p><strong>Rango de Hosts:</strong> ${subred.primerHost} - ${subred.ultimoHost}</p>
-            <p><strong>Dirección de Broadcast:</strong> ${subred.broadcast}</p>
-            <p><strong>Última IP Asignable:</strong> ${subred.ultimoHost}</p>
-        </div>
-    `;
-});
 
-// Mostrar el resultado en el HTML
-document.getElementById('resultado').innerHTML = resultadoHtml;
+    // Mostrar los resultados
+    let resultadoHtml = '';
+    subredes.forEach((subred, index) => {
+        resultadoHtml += `
+            <div class="subnet">
+                <h3>${subred.nombre} (Subred ${index + 1})</h3>
+                <p><strong>Dirección de Subred:</strong> ${subred.red}/${subred.prefijo}</p>
+                <p><strong>Rango de Hosts:</strong> ${subred.primerHost} - ${subred.ultimoHost}</p>
+                <p><strong>Dirección de Broadcast:</strong> ${subred.broadcast}</p>
+            </div>
+        `;
+    });
+
+    document.getElementById('resultado').innerHTML = resultadoHtml;
+}
