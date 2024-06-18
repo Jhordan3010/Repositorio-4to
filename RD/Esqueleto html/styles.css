@@ -32,8 +32,7 @@ label {
     margin-right: 10px;
 }
 
-input[type="text"],
-input[type="number"] {
+input[type="text"], input[type="number"] {
     flex: 2;
     width: 100%;
     padding: 8px;
@@ -66,30 +65,21 @@ button:hover {
     margin-top: 30px;
 }
 
-.subnets-table {
+.result table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
 }
 
-.subnets-table th,
-.subnets-table td {
+.result th, .result td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: center;
 }
 
-.subnets-table th {
+.result th {
     background-color: #007bff;
     color: #fff;
-}
-
-.subnets-table tbody tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-
-.subnets-table tbody tr:hover {
-    background-color: #e9ecef;
 }
 
 .subnet {
