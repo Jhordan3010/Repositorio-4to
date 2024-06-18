@@ -53,3 +53,7 @@ desirable: siempre es trocal por lo general
 **Switching y Routing**(Funcionamiento de Inter-VLAN Routing)
 Se utiliz para segmentar las redes conmutadas de Capa 2 por diversas razones.
 Inter-VLA routing es el proceso de reenviar el trafico de red de una VLAN a otra VLAN.
+Hay tres opciones inter-VLAN routing:
+- Enrutamiento entre vlan hereedada- esta es una solucion heredada
+- Router-on-a stick
+- Conmutador de nivel 3 con interfaces virtuales
