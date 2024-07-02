@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "dbaf620e23ce7d84",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.5"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -156,7 +167,7 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "1cb503267d0660b7",
+  "active": "dbaf620e23ce7d84",
   "lastOpenFiles": [
     "Cuarto Semestre/RDD/REDES DE DATOS.md",
     "Cuarto Semestre/Estadistica/Capitulo 5.md",
