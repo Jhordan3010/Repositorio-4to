@@ -23,9 +23,11 @@
             "id": "dbaf620e23ce7d84",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.6.5"
+                "file": "Cuarto Semestre/RDD/REDES DE DATOS.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cuarto Semestre/BD/CONSULTAS.md",
+                "file": "Cuarto Semestre/RDD/REDES DE DATOS.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cuarto Semestre/BD/CONSULTAS.md",
+                "file": "Cuarto Semestre/RDD/REDES DE DATOS.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cuarto Semestre/BD/CONSULTAS.md"
+                "file": "Cuarto Semestre/RDD/REDES DE DATOS.md"
               }
             }
           },
@@ -169,6 +171,7 @@
   },
   "active": "dbaf620e23ce7d84",
   "lastOpenFiles": [
+    "Cuarto Semestre/RDD/VLSM-IPv6.md",
     "Cuarto Semestre/RDD/REDES DE DATOS.md",
     "Cuarto Semestre/Estadistica/Capitulo 5.md",
     "Cuarto Semestre/Estadistica/Capitulo 4.md",
@@ -182,7 +185,6 @@
     "Cuarto Semestre/Imagenes/Pasted Image 20240515102444_970.jpg",
     "Cuarto Semestre/Imagenes/Beneficios de un diseño de VLAN.png",
     "Cuarto Semestre/Imagenes/Subneteo Ipv6.png",
-    "Cuarto Semestre/RDD/VLSM-IPv6.md",
     "Cuarto Semestre/BD/CONSULTAS.md",
     "2024-06-04.md",
     "Cuarto Semestre/Diseño/Bancos de germoplasma in vitro.md",
