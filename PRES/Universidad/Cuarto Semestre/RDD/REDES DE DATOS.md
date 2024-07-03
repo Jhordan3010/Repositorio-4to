@@ -57,3 +57,27 @@ Hay tres opciones inter-VLAN routing:
 - Enrutamiento entre vlan hereedada- esta es una solucion heredada
 - Router-on-a stick
 - Conmutador de nivel 3 con interfaces virtuales
+
+### Modelo OSI Completo:
+
+1. **Capa 1: Capa Física (Physical Layer)**
+    - Define los medios físicos de transmisión de datos.
+    - Ejemplos: cables, señales eléctricas, interfaces físicas.
+2. **Capa 2: Capa de Enlace de Datos (Data Link Layer)**
+    - Proporciona la transferencia de datos entre dispositivos en la misma red local.
+    - Ejemplos: Ethernet, MAC addresses, switches de capa 2.
+3. **Capa 3: Capa de Red (Network Layer)**
+    - Se encarga del encaminamiento de los paquetes de datos entre redes diferentes.
+    - Ejemplos de Protocolos: IP (Internet Protocol), ICMP (Internet Control Message Protocol), ARP (Address Resolution Protocol), OSPF (Open Shortest Path First).
+4. **Capa 4: Capa de Transporte (Transport Layer)**
+    - Proporciona una transferencia de datos fiable y controlada entre dispositivos.
+    - Ejemplos: TCP (Transmission Control Protocol), UDP (User Datagram Protocol).
+5. **Capa 5: Capa de Sesión (Session Layer)**
+    - Gestiona las sesiones de comunicación entre aplicaciones.
+    - Ejemplos: RPC (Remote Procedure Call), PPTP (Point-to-Point Tunneling Protocol).
+6. **Capa 6: Capa de Presentación (Presentation Layer)**
+    - Traduce, cifra y comprime los datos para la capa de aplicación.
+    - Ejemplos: SSL/TLS (Secure Sockets Layer/Transport Layer Security), JPEG, ASCII.
+7. **Capa 7: Capa de Aplicación (Application Layer)**
+    - Proporciona servicios de red a las aplicaciones del usuario final.
+    - Ejemplos: HTTP, FTP, SMTP, DNS.
