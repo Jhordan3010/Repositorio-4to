@@ -25,14 +25,38 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Cuarto Semestre/RDD/VLSM-IPv6.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eef8bc5a56d9c496",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Cuarto Semestre/RDD/REDES DE DATOS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4411bf4ba39a11a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cuarto Semestre/Diseño/Exposición.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -82,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5
+    "width": 248.5,
+    "collapsed": true
   },
   "right": {
     "id": "17b2a4928de3e5d6",
@@ -98,9 +123,9 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cuarto Semestre/RDD/REDES DE DATOS.md",
+                "file": "Cuarto Semestre/Diseño/Exposición.md",
                 "collapseAll": false,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -115,9 +140,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cuarto Semestre/RDD/REDES DE DATOS.md",
-                "linksCollapsed": true,
-                "unlinkedCollapsed": true
+                "file": "Cuarto Semestre/Diseño/Exposición.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -138,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cuarto Semestre/RDD/REDES DE DATOS.md"
+                "file": "Cuarto Semestre/Diseño/Exposición.md"
               }
             }
           },
@@ -169,10 +194,14 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "dbaf620e23ce7d84",
+  "active": "4411bf4ba39a11a8",
   "lastOpenFiles": [
-    "Cuarto Semestre/RDD/VLSM-IPv6.md",
     "Cuarto Semestre/RDD/REDES DE DATOS.md",
+    "Cuarto Semestre/Diseño/Exposición.md",
+    "Cuarto Semestre/RDD/VLSM-IPv6.md",
+    "Cuarto Semestre/Imagenes/Beneficios de un diseño de VLAN.png",
+    "Cuarto Semestre/Imagenes/Pasted Image 20240515102444_970.jpg",
+    "Cuarto Semestre/Imagenes/Subneteo Ipv6.png",
     "Cuarto Semestre/Estadistica/Capitulo 5.md",
     "Cuarto Semestre/Estadistica/Capitulo 4.md",
     "Cuarto Semestre/Estadistica/Capitulo 3.md",
@@ -182,9 +211,6 @@
     "Sin título.canvas",
     "Excalidraw/Drawing 2024-06-11 10.30.08.excalidraw.md",
     "Excalidraw",
-    "Cuarto Semestre/Imagenes/Pasted Image 20240515102444_970.jpg",
-    "Cuarto Semestre/Imagenes/Beneficios de un diseño de VLAN.png",
-    "Cuarto Semestre/Imagenes/Subneteo Ipv6.png",
     "Cuarto Semestre/BD/CONSULTAS.md",
     "2024-06-04.md",
     "Cuarto Semestre/Diseño/Bancos de germoplasma in vitro.md",
