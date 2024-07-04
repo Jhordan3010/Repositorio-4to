@@ -106,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5,
-    "collapsed": true
+    "width": 248.5
   },
   "right": {
     "id": "17b2a4928de3e5d6",
@@ -196,16 +195,17 @@
   },
   "active": "4411bf4ba39a11a8",
   "lastOpenFiles": [
-    "Cuarto Semestre/RDD/REDES DE DATOS.md",
-    "Cuarto Semestre/Diseño/Exposición.md",
-    "Cuarto Semestre/RDD/VLSM-IPv6.md",
-    "Cuarto Semestre/Imagenes/Beneficios de un diseño de VLAN.png",
-    "Cuarto Semestre/Imagenes/Pasted Image 20240515102444_970.jpg",
-    "Cuarto Semestre/Imagenes/Subneteo Ipv6.png",
+    "Cuarto Semestre/Diseño/Bancos de germoplasma in vitro.md",
     "Cuarto Semestre/Estadistica/Capitulo 5.md",
     "Cuarto Semestre/Estadistica/Capitulo 4.md",
     "Cuarto Semestre/Estadistica/Capitulo 3.md",
     "Cuarto Semestre/Estadistica/Capitulo 2.md",
+    "Cuarto Semestre/RDD/VLSM-IPv6.md",
+    "Cuarto Semestre/RDD/REDES DE DATOS.md",
+    "Cuarto Semestre/Diseño/Exposición.md",
+    "Cuarto Semestre/Imagenes/Beneficios de un diseño de VLAN.png",
+    "Cuarto Semestre/Imagenes/Pasted Image 20240515102444_970.jpg",
+    "Cuarto Semestre/Imagenes/Subneteo Ipv6.png",
     "Cuarto Semestre/Estadistica/Cap-5 Pruebas Wilcoxon y t-student.pdf",
     "Cuarto Semestre",
     "Sin título.canvas",
@@ -213,7 +213,6 @@
     "Excalidraw",
     "Cuarto Semestre/BD/CONSULTAS.md",
     "2024-06-04.md",
-    "Cuarto Semestre/Diseño/Bancos de germoplasma in vitro.md",
     "Estadistica/Sin título.md",
     "Sin título 1.canvas",
     "BD/Drawing 2024-05-27 07.52.50.excalidraw.md",
