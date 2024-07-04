@@ -33,12 +33,12 @@ Razones para muestrear
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.1.7",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.1.8",
 	"elements": [
 		{
 			"type": "text",
-			"version": 278,
-			"versionNonce": 1670713533,
+			"version": 305,
+			"versionNonce": 84697140,
 			"index": "a0",
 			"isDeleted": false,
 			"id": "UaDYkvez",
@@ -48,8 +48,8 @@ Razones para muestrear
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -305.8195609298406,
-			"y": -672.2140953213559,
+			"x": -357.8195304122625,
+			"y": -663.2141182095395,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 1426.2587890625,
@@ -59,7 +59,7 @@ Razones para muestrear
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1715171646971,
+			"updated": 1720065055604,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -71,36 +71,6 @@ Razones para muestrear
 			"containerId": null,
 			"originalText": "Distribución de probabilidad discreta\n\nBinomial: eventos independientes y mutuamente excluyentes, donde hay solo dos posibilidades.\nPoisson: eventos independientes durante un intervalo definido(tiempo, distancia, área, volumen, etc.)\nHipergeométrica: eventos no son independientes.\nEventos independientes: el resultado de un ensayo particular no influye en el resultado de otro ensayo. Ej. Lanzar 2 dados, género de 2 hijos.\n\nMUESTREO\n- Es una herramienta para inferir (generalización) algo sobre una población a partir de una muestra.\nRazones para muestrear\n- tiempo\n- costo\n- físicamente imposible acceder al grupo\n- pruebas destruyen el producto\n- los resultados de la muestra son adecuados (para generalizar a la población).\n\n\n",
 			"lineHeight": 1.25
-		},
-		{
-			"type": "rectangle",
-			"version": 105,
-			"versionNonce": 970302796,
-			"index": "a1",
-			"isDeleted": true,
-			"id": "FtZ5qb7nilNV6DtdkRijT",
-			"fillStyle": "solid",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": -277.80383300781267,
-			"y": -192.92086029052734,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
-			"width": 189.86665852864581,
-			"height": 208,
-			"seed": 1857581821,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": {
-				"type": 3
-			},
-			"boundElements": [],
-			"updated": 1715257210657,
-			"link": null,
-			"locked": false
 		}
 	],
 	"appState": {
@@ -118,10 +88,10 @@ Razones para muestrear
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 351.51369581035516,
-		"scrollY": 292.05276474298216,
+		"scrollX": 368.6276663985905,
+		"scrollY": 783.4172126919614,
 		"zoom": {
-			"value": 0.8500000000000001
+			"value": 0.8
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
